@@ -36,19 +36,8 @@ MKT_TP_FINAL/
 ├── raw/                        # Datos originales (CSV normalizados)
 │
 ├── denormalized/
+│   ├── staging/                # Tablas intermedias
 │   └── kimball/                # Tablas finales del Data Warehouse
-│       ├── dim_address.csv
-│       ├── dim_channel.csv
-│       ├── dim_customer.csv
-│       ├── dim_product.csv
-│       ├── dim_province.csv
-│       ├── dim_store.csv
-│       ├── fact_sales_order.csv
-│       ├── fact_sales_item.csv
-│       ├── fact_payment.csv
-│       ├── fact_shipment.csv
-│       ├── fact_web_session.csv
-│       └── fact_nps_response.csv
 │
 ├── assets/
 │   ├── DER.png                 # Diagrama Entidad-Relación
@@ -86,6 +75,89 @@ python ecript/dimfact.py
 ```
 
 Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/kimball/`.
+
+---
+
+## 🌟 Diagrama Estrella – *Modelo Kimball del DW*
+
+```text
+                               ┌──────────────────────────────┐
+                               │        dim_channel           │
+                               │──────────────────────────────│
+                               │ channel_id (PK)              │
+                               │ channel_name                 │
+                               │ channel_type                 │
+                               └──────────────┬───────────────┘
+                                              │
+                                              │
+         ┌───────────────────────┐            │
+         │      dim_province     │            │
+         │───────────────────────│            │
+         │ province_id (PK)      │            │
+         │ province_name         │            │
+         │ country               │            │
+         └──────┬────────────────┘            │
+                │                             │
+ ┌──────────────┴─────────────────────────────┴───────────────────────────────┐
+ │                               fact_sales_order                             │
+ │────────────────────────────────────────────────────────────────────────────│
+ │ order_id (PK)                                                               │
+ │ customer_id (FK→dim_customer)                                               │
+ │ store_id (FK→dim_store)                                                     │
+ │ province_id (FK→dim_province)                                               │
+ │ channel_id (FK→dim_channel)                                                 │
+ │ order_date                                                                  │
+ │ total_amount, tax_amount, shipping_fee, subtotal, etc.                      │
+ │────────────────────────────────────────────────────────────────────────────│
+ │ 🔹 Métricas: SUM(total_amount), COUNT(order_id), AVG(total_amount), etc.    │
+ └──────────────┬───────────────┬──────────────┬──────────────┬───────────────┘
+                │               │              │               │
+                │               │              │               │
+        ┌───────┴──────┐ ┌──────┴───────┐ ┌────┴────────┐ ┌────┴──────────┐
+        │ dim_customer │ │  dim_store   │ │ dim_address │ │ dim_product   │
+        │──────────────│ │──────────────│ │─────────────│ │───────────────│
+        │ customer_id  │ │ store_id     │ │ address_id  │ │ product_id    │
+        │ first_name   │ │ store_name   │ │ city        │ │ name          │
+        │ last_name    │ │ address_id→address │ province_id │ category_id  │
+        │ email        │ │ province_id  │ │ postal_code │ │ price        │
+        └──────────────┘ └──────────────┘ └─────────────┘ └────┬──────────┘
+                                                                │
+                                                                │
+                                         ┌───────────────────────┴────────────────────────┐
+                                         │                 fact_sales_item                │
+                                         │────────────────────────────────────────────────│
+                                         │ order_item_id (PK)                             │
+                                         │ order_id (FK→fact_sales_order)                 │
+                                         │ product_id (FK→dim_product)                    │
+                                         │ quantity, unit_price, discount, line_total     │
+                                         └────────────────────────────────────────────────┘
+
+```
+
+### 🧩 Otras tablas de hechos secundarias
+
+```text
+fact_payment
+ ├─ payment_id (PK)
+ ├─ order_id (FK→fact_sales_order)
+ ├─ method, status, amount, paid_at
+
+fact_shipment
+ ├─ shipment_id (PK)
+ ├─ order_id (FK→fact_sales_order)
+ ├─ carrier, status, shipped_at, delivered_at
+
+fact_web_session
+ ├─ session_id (PK)
+ ├─ customer_id (FK→dim_customer)
+ ├─ started_at, ended_at, source, device
+
+fact_nps_response
+ ├─ nps_id (PK)
+ ├─ customer_id (FK→dim_customer)
+ ├─ channel_id (FK→dim_channel)
+ ├─ score, comment, responded_at
+```
 
 ---
 
@@ -136,6 +208,8 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 | `dim_customer` | Dimensión | Información de clientes |
 | `dim_product` | Dimensión | Productos y categorías |
 | `dim_province` | Dimensión | Provincias argentinas |
+| `dim_channel` | Dimensión | Canales de venta |
+| `dim_store` | Dimensión | Tiendas físicas |
 | `fact_sales_order` | Hecho | Cabecera de pedidos |
 | `fact_sales_item` | Hecho | Detalle de productos por pedido |
 | `fact_payment` | Hecho | Pagos y métodos |
