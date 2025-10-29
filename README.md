@@ -345,7 +345,7 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 
 ## 📊 Dashboard Comercial – *Looker Studio*
 
-- **Herramienta:** [Google Looker Studio](https://lookerstudio.google.com/)
+- **Herramienta:** [Power BI]
 - **Fuente:** Archivos CSV del DW (`denormalized/kimball`)
 - **Filtros Globales:** Fecha, Canal, Provincia, Producto
 - **Visualizaciones:**
@@ -354,7 +354,7 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
   - Barras: Top productos
   - Indicadores: Ventas Totales, Usuarios, NPS
 
-📎 **Enlace al Dashboard:** *(agregá tu link acá)*  
+📎 **Enlace al Dashboard:**  
 📸 ![Dashboard](assets/dashboard.png)
 
 ---
