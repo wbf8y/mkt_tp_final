@@ -1,0 +1,4 @@
+category_id,name,parent_id
+1,Bottles,nan
+2,Classic,1
+3,Sport,1

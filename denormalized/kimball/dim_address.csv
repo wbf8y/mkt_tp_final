@@ -1,0 +1,3205 @@
+address_id,city,postal_code,province_id
+1,Buenos Aires,1001,1
+2,Córdoba,1002,2
+3,Santa Fe,1003,3
+4,Mendoza,1004,4
+1001,Córdoba,4934,2
+1002,Rafaela,2071,3
+1003,CABA,7131,1
+1004,Río Cuarto,9773,2
+1005,Santa Fe,3071,3
+1006,Godoy Cruz,2062,4
+1007,Mar del Plata,3932,1
+1008,Río Cuarto,5396,2
+1009,Río Cuarto,8406,2
+1010,La Plata,7129,1
+1011,Córdoba,4771,2
+1012,Mar del Plata,8086,1
+1013,La Plata,3942,1
+1014,Mar del Plata,9220,1
+1015,CABA,2168,1
+1016,CABA,5096,1
+1017,Río Cuarto,9898,2
+1018,La Plata,1194,1
+1019,Córdoba,8773,2
+1020,Mar del Plata,2406,1
+1021,Santa Fe,1493,3
+1022,CABA,6810,1
+1023,La Plata,6342,1
+1024,Córdoba,7247,2
+1025,Mendoza,2779,4
+1026,Villa Carlos Paz,3910,2
+1027,Rafaela,2138,3
+1028,CABA,8449,1
+1029,CABA,3572,1
+1030,La Plata,4382,1
+1031,Santa Fe,3601,3
+1032,Río Cuarto,3337,2
+1033,La Plata,9043,1
+1034,CABA,6681,1
+1035,CABA,8501,1
+1036,Mendoza,4927,4
+1037,Mar del Plata,4559,1
+1038,Mar del Plata,9264,1
+1039,CABA,8572,1
+1040,Mar del Plata,4185,1
+1041,La Plata,8606,1
+1042,CABA,3297,1
+1043,Rosario,3903,3
+1044,Mar del Plata,5476,1
+1045,CABA,8242,1
+1046,Rafaela,8274,3
+1047,Córdoba,4908,2
+1048,La Plata,2035,1
+1049,Mendoza,7810,4
+1050,La Plata,4393,1
+1051,La Plata,6842,1
+1052,La Plata,8516,1
+1053,La Plata,7735,1
+1054,Santa Fe,5127,3
+1055,Río Cuarto,6440,2
+1056,Río Cuarto,6490,2
+1057,Río Cuarto,9248,2
+1058,Mar del Plata,4990,1
+1059,La Plata,7156,1
+1060,Córdoba,3199,2
+1061,CABA,1388,1
+1062,Santa Fe,5068,3
+1063,Villa Carlos Paz,1099,2
+1064,Rosario,4345,3
+1065,Mar del Plata,7983,1
+1066,Mar del Plata,5079,1
+1067,La Plata,6891,1
+1068,La Plata,3553,1
+1069,La Plata,3878,1
+1070,La Plata,2178,1
+1071,La Plata,1210,1
+1072,Villa Carlos Paz,7113,2
+1073,Mar del Plata,3039,1
+1074,Mendoza,9349,4
+1075,Villa Carlos Paz,5043,2
+1076,La Plata,5281,1
+1077,Mendoza,1202,4
+1078,Rafaela,9495,3
+1079,Rosario,9202,3
+1080,Villa Carlos Paz,2456,2
+1081,Villa Carlos Paz,7520,2
+1082,CABA,7845,1
+1083,La Plata,4053,1
+1084,CABA,4041,1
+1085,CABA,2789,1
+1086,CABA,6605,1
+1087,Villa Carlos Paz,2000,2
+1088,Rosario,9557,3
+1089,Mar del Plata,8036,1
+1090,La Plata,7200,1
+1091,Godoy Cruz,3275,4
+1092,Río Cuarto,8404,2
+1093,Mar del Plata,1272,1
+1094,Rafaela,8938,3
+1095,Córdoba,7305,2
+1096,Río Cuarto,3094,2
+1097,Santa Fe,2895,3
+1098,Córdoba,2728,2
+1099,Mendoza,4610,4
+1100,Río Cuarto,2481,2
+1101,Rafaela,7176,3
+1102,Río Cuarto,2895,2
+1103,CABA,2902,1
+1104,La Plata,6092,1
+1105,Córdoba,3069,2
+1106,Río Cuarto,9819,2
+1107,La Plata,3415,1
+1108,Mar del Plata,9230,1
+1109,Mar del Plata,9110,1
+1110,Villa Carlos Paz,4687,2
+1111,Mendoza,3608,4
+1112,La Plata,7412,1
+1113,Mar del Plata,9978,1
+1114,La Plata,8496,1
+1115,Villa Carlos Paz,4573,2
+1116,Córdoba,3418,2
+1117,Godoy Cruz,8763,4
+1118,Mendoza,3434,4
+1119,CABA,3826,1
+1120,Rafaela,5509,3
+1121,CABA,9351,1
+1122,Mar del Plata,3967,1
+1123,Mar del Plata,2629,1
+1124,Mar del Plata,7451,1
+1125,Rafaela,4399,3
+1126,Mar del Plata,6149,1
+1127,Mar del Plata,5206,1
+1128,CABA,7931,1
+1129,CABA,3291,1
+1130,Río Cuarto,2622,2
+1131,CABA,4539,1
+1132,Mar del Plata,5270,1
+1133,Córdoba,7968,2
+1134,CABA,7097,1
+1135,Río Cuarto,6183,2
+1136,Mar del Plata,9707,1
+1137,Villa Carlos Paz,6944,2
+1138,Rosario,7179,3
+1139,CABA,9021,1
+1140,Mar del Plata,2623,1
+1141,La Plata,8812,1
+1142,Mar del Plata,3337,1
+1143,Villa Carlos Paz,5081,2
+1144,Córdoba,5519,2
+1145,Mar del Plata,6007,1
+1146,Rosario,2534,3
+1147,Córdoba,7946,2
+1148,Mendoza,7643,4
+1149,Río Cuarto,5001,2
+1150,Córdoba,3864,2
+1151,CABA,9118,1
+1152,CABA,5752,1
+1153,La Plata,4562,1
+1154,San Rafael,1942,4
+1155,La Plata,1084,1
+1156,Rosario,8058,3
+1157,Mar del Plata,8985,1
+1158,Mar del Plata,7132,1
+1159,CABA,8198,1
+1160,Mar del Plata,2813,1
+1161,CABA,1517,1
+1162,Villa Carlos Paz,9119,2
+1163,La Plata,3153,1
+1164,Mendoza,4874,4
+1165,Villa Carlos Paz,8116,2
+1166,La Plata,9376,1
+1167,CABA,4250,1
+1168,Córdoba,3436,2
+1169,La Plata,7984,1
+1170,Córdoba,4791,2
+1171,La Plata,5985,1
+1172,La Plata,6240,1
+1173,CABA,4473,1
+1174,Mar del Plata,9049,1
+1175,CABA,6426,1
+1176,Villa Carlos Paz,4903,2
+1177,La Plata,1672,1
+1178,La Plata,5939,1
+1179,Mendoza,3094,4
+1180,Mar del Plata,8347,1
+1181,Mendoza,3735,4
+1182,Córdoba,4116,2
+1183,Mar del Plata,9344,1
+1184,Villa Carlos Paz,4015,2
+1185,CABA,9254,1
+1186,CABA,3803,1
+1187,CABA,5550,1
+1188,CABA,1022,1
+1189,Villa Carlos Paz,3189,2
+1190,Santa Fe,6824,3
+1191,Villa Carlos Paz,7258,2
+1192,Rafaela,4614,3
+1193,Mar del Plata,8109,1
+1194,La Plata,4031,1
+1195,La Plata,6081,1
+1196,Santa Fe,2180,3
+1197,Mar del Plata,1193,1
+1198,CABA,3165,1
+1199,Santa Fe,1153,3
+1200,La Plata,8279,1
+1201,La Plata,9906,1
+1202,CABA,9381,1
+1203,CABA,3414,1
+1204,Córdoba,9057,2
+1205,Mendoza,6467,4
+1206,CABA,8022,1
+1207,CABA,5702,1
+1208,Santa Fe,2251,3
+1209,Rosario,8318,3
+1210,Rosario,3370,3
+1211,CABA,9097,1
+1212,La Plata,5028,1
+1213,La Plata,7301,1
+1214,Villa Carlos Paz,2429,2
+1215,CABA,3188,1
+1216,La Plata,3361,1
+1217,Godoy Cruz,3257,4
+1218,San Rafael,7958,4
+1219,CABA,1494,1
+1220,CABA,3452,1
+1221,CABA,7742,1
+1222,Mar del Plata,1983,1
+1223,Córdoba,7940,2
+1224,Villa Carlos Paz,7941,2
+1225,CABA,7560,1
+1226,CABA,8821,1
+1227,Villa Carlos Paz,7950,2
+1228,CABA,1459,1
+1229,Mar del Plata,6064,1
+1230,Río Cuarto,1735,2
+1231,Godoy Cruz,6056,4
+1232,Godoy Cruz,7400,4
+1233,San Rafael,9227,4
+1234,La Plata,3641,1
+1235,Córdoba,3307,2
+1236,San Rafael,8331,4
+1237,La Plata,4917,1
+1238,San Rafael,2595,4
+1239,La Plata,8451,1
+1240,La Plata,6789,1
+1241,Mar del Plata,8242,1
+1242,San Rafael,7568,4
+1243,Rafaela,7122,3
+1244,Río Cuarto,1934,2
+1245,Río Cuarto,7157,2
+1246,Córdoba,6716,2
+1247,Mar del Plata,2775,1
+1248,Rosario,6610,3
+1249,Mar del Plata,1627,1
+1250,La Plata,1513,1
+1251,La Plata,4465,1
+1252,San Rafael,2369,4
+1253,La Plata,7876,1
+1254,La Plata,6603,1
+1255,La Plata,8156,1
+1256,San Rafael,2274,4
+1257,Mar del Plata,3416,1
+1258,Rosario,8381,3
+1259,Río Cuarto,4074,2
+1260,Córdoba,4436,2
+1261,San Rafael,5947,4
+1262,CABA,7723,1
+1263,Mar del Plata,3880,1
+1264,CABA,7251,1
+1265,Rafaela,2435,3
+1266,CABA,8276,1
+1267,Córdoba,8448,2
+1268,CABA,7765,1
+1269,La Plata,5333,1
+1270,Santa Fe,1254,3
+1271,La Plata,6490,1
+1272,Godoy Cruz,7444,4
+1273,Rafaela,3846,3
+1274,San Rafael,3069,4
+1275,Mar del Plata,6282,1
+1276,CABA,1455,1
+1277,Mendoza,8433,4
+1278,Mar del Plata,7194,1
+1279,Villa Carlos Paz,2694,2
+1280,Mar del Plata,5292,1
+1281,La Plata,9045,1
+1282,La Plata,7148,1
+1283,Villa Carlos Paz,3927,2
+1284,La Plata,3595,1
+1285,Córdoba,9486,2
+1286,Rosario,6366,3
+1287,Mar del Plata,4264,1
+1288,Mar del Plata,8144,1
+1289,Mendoza,7436,4
+1290,Río Cuarto,8101,2
+1291,Mar del Plata,7275,1
+1292,La Plata,3740,1
+1293,Godoy Cruz,7525,4
+1294,La Plata,2190,1
+1295,Villa Carlos Paz,6219,2
+1296,Córdoba,2085,2
+1297,CABA,2225,1
+1298,Villa Carlos Paz,1813,2
+1299,La Plata,3803,1
+1300,Córdoba,1076,2
+1301,La Plata,6527,1
+1302,CABA,6196,1
+1303,Mar del Plata,7444,1
+1304,Villa Carlos Paz,2683,2
+1305,CABA,4708,1
+1306,Mar del Plata,5254,1
+1307,La Plata,5422,1
+1308,San Rafael,3424,4
+1309,Río Cuarto,8830,2
+1310,Godoy Cruz,5853,4
+1311,CABA,9103,1
+1312,Mar del Plata,8989,1
+1313,Mar del Plata,8438,1
+1314,Rosario,8412,3
+1315,La Plata,3690,1
+1316,San Rafael,2805,4
+1317,La Plata,9698,1
+1318,CABA,4474,1
+1319,La Plata,5466,1
+1320,Mar del Plata,5816,1
+1321,Mar del Plata,9497,1
+1322,CABA,1870,1
+1323,Córdoba,4710,2
+1324,CABA,9112,1
+1325,CABA,1050,1
+1326,Mar del Plata,3789,1
+1327,Córdoba,1208,2
+1328,CABA,1159,1
+1329,San Rafael,2792,4
+1330,Rafaela,3401,3
+1331,Mar del Plata,9940,1
+1332,Villa Carlos Paz,5933,2
+1333,Rafaela,9508,3
+1334,La Plata,9156,1
+1335,Mar del Plata,4175,1
+1336,Villa Carlos Paz,5346,2
+1337,Santa Fe,4122,3
+1338,Río Cuarto,8455,2
+1339,CABA,3461,1
+1340,San Rafael,8976,4
+1341,La Plata,5636,1
+1342,La Plata,1817,1
+1343,La Plata,2409,1
+1344,Mar del Plata,5764,1
+1345,La Plata,7923,1
+1346,Mendoza,3839,4
+1347,La Plata,5096,1
+1348,CABA,8555,1
+1349,La Plata,6132,1
+1350,San Rafael,8643,4
+1351,Godoy Cruz,2448,4
+1352,Villa Carlos Paz,3085,2
+1353,Santa Fe,1097,3
+1354,Rafaela,5426,3
+1355,CABA,1997,1
+1356,Río Cuarto,4359,2
+1357,Mar del Plata,5929,1
+1358,Córdoba,2879,2
+1359,Mar del Plata,4347,1
+1360,Mar del Plata,5913,1
+1361,CABA,3018,1
+1362,CABA,3797,1
+1363,Río Cuarto,5742,2
+1364,Godoy Cruz,7321,4
+1365,La Plata,2968,1
+1366,Mar del Plata,1698,1
+1367,Godoy Cruz,6861,4
+1368,Rafaela,9405,3
+1369,CABA,8528,1
+1370,Mar del Plata,7168,1
+1371,Córdoba,3120,2
+1372,Río Cuarto,2107,2
+1373,Mar del Plata,9182,1
+1374,CABA,7882,1
+1375,La Plata,8234,1
+1376,Córdoba,7187,2
+1377,San Rafael,9046,4
+1378,Córdoba,9659,2
+1379,CABA,1085,1
+1380,Rafaela,9653,3
+1381,CABA,6840,1
+1382,Rosario,2161,3
+1383,Mar del Plata,4777,1
+1384,Villa Carlos Paz,7396,2
+1385,CABA,9482,1
+1386,Mar del Plata,8716,1
+1387,Córdoba,6481,2
+1388,Mar del Plata,9086,1
+1389,Rafaela,2159,3
+1390,Río Cuarto,5432,2
+1391,La Plata,8069,1
+1392,CABA,9752,1
+1393,Río Cuarto,7342,2
+1394,Villa Carlos Paz,8175,2
+1395,Santa Fe,1949,3
+1396,Mar del Plata,1244,1
+1397,Rosario,5630,3
+1398,Mar del Plata,8843,1
+1399,Córdoba,6848,2
+1400,La Plata,9631,1
+1401,Mar del Plata,7731,1
+1402,CABA,4453,1
+1403,CABA,8434,1
+1404,CABA,5921,1
+1405,Mar del Plata,7302,1
+1406,CABA,9724,1
+1407,Córdoba,5301,2
+1408,Santa Fe,2789,3
+1409,Mar del Plata,9501,1
+1410,La Plata,1248,1
+1411,Santa Fe,6530,3
+1412,La Plata,1202,1
+1413,Mar del Plata,8581,1
+1414,La Plata,7694,1
+1415,Córdoba,2049,2
+1416,La Plata,3858,1
+1417,Rafaela,4018,3
+1418,Rafaela,1996,3
+1419,Mendoza,4845,4
+1420,Mar del Plata,4882,1
+1421,La Plata,5638,1
+1422,Mar del Plata,8711,1
+1423,Córdoba,1418,2
+1424,Villa Carlos Paz,4520,2
+1425,Rosario,2266,3
+1426,Río Cuarto,9646,2
+1427,Río Cuarto,5410,2
+1428,Santa Fe,4782,3
+1429,CABA,6929,1
+1430,Mar del Plata,4774,1
+1431,Rosario,7678,3
+1432,Villa Carlos Paz,7692,2
+1433,CABA,3947,1
+1434,CABA,2654,1
+1435,Santa Fe,3168,3
+1436,Santa Fe,4955,3
+1437,La Plata,1741,1
+1438,Villa Carlos Paz,8138,2
+1439,Rafaela,3494,3
+1440,Villa Carlos Paz,3895,2
+1441,Villa Carlos Paz,6588,2
+1442,Río Cuarto,6288,2
+1443,CABA,8053,1
+1444,Mar del Plata,3713,1
+1445,La Plata,5250,1
+1446,San Rafael,9334,4
+1447,CABA,9001,1
+1448,La Plata,9534,1
+1449,Santa Fe,8281,3
+1450,CABA,6795,1
+1451,Córdoba,5523,2
+1452,Río Cuarto,1628,2
+1453,Mar del Plata,1130,1
+1454,La Plata,8702,1
+1455,CABA,2453,1
+1456,Rafaela,9039,3
+1457,Río Cuarto,7230,2
+1458,Villa Carlos Paz,4799,2
+1459,Villa Carlos Paz,5840,2
+1460,La Plata,7960,1
+1461,La Plata,3098,1
+1462,Santa Fe,1474,3
+1463,CABA,5286,1
+1464,La Plata,5396,1
+1465,Villa Carlos Paz,4625,2
+1466,Mar del Plata,3117,1
+1467,Mar del Plata,6778,1
+1468,CABA,3572,1
+1469,Mar del Plata,6431,1
+1470,Mar del Plata,9627,1
+1471,La Plata,1397,1
+1472,Río Cuarto,7190,2
+1473,Mar del Plata,9265,1
+1474,Mar del Plata,7408,1
+1475,Santa Fe,5950,3
+1476,CABA,7169,1
+1477,CABA,5659,1
+1478,La Plata,7106,1
+1479,Villa Carlos Paz,4802,2
+1480,Mar del Plata,3355,1
+1481,CABA,2374,1
+1482,La Plata,1965,1
+1483,La Plata,7660,1
+1484,CABA,6128,1
+1485,Mar del Plata,2721,1
+1486,Villa Carlos Paz,3722,2
+1487,CABA,9594,1
+1488,Mar del Plata,2926,1
+1489,San Rafael,3718,4
+1490,Mar del Plata,9509,1
+1491,CABA,3690,1
+1492,Villa Carlos Paz,3463,2
+1493,CABA,2537,1
+1494,CABA,2093,1
+1495,Córdoba,5498,2
+1496,Santa Fe,7607,3
+1497,Río Cuarto,2687,2
+1498,La Plata,6409,1
+1499,San Rafael,4798,4
+1500,Mar del Plata,1004,1
+1501,CABA,8728,1
+1502,CABA,7316,1
+1503,Mar del Plata,3721,1
+1504,Villa Carlos Paz,2970,2
+1505,Rafaela,8636,3
+1506,Córdoba,3932,2
+1507,La Plata,6381,1
+1508,Godoy Cruz,1549,4
+1509,Villa Carlos Paz,5492,2
+1510,Mendoza,9033,4
+1511,Mar del Plata,1472,1
+1512,Córdoba,1918,2
+1513,Córdoba,4181,2
+1514,Mar del Plata,9459,1
+1515,Godoy Cruz,2064,4
+1516,Rafaela,3827,3
+1517,Mar del Plata,3833,1
+1518,Mar del Plata,2410,1
+1519,CABA,6201,1
+1520,Rosario,2331,3
+1521,Mar del Plata,6087,1
+1522,La Plata,7782,1
+1523,Santa Fe,8202,3
+1524,La Plata,3793,1
+1525,San Rafael,8108,4
+1526,Río Cuarto,2486,2
+1527,Santa Fe,2889,3
+1528,Córdoba,7099,2
+1529,Mar del Plata,6879,1
+1530,La Plata,4065,1
+1531,La Plata,8478,1
+1532,Villa Carlos Paz,6535,2
+1533,Villa Carlos Paz,7897,2
+1534,Rafaela,9391,3
+1535,San Rafael,3128,4
+1536,Rosario,8515,3
+1537,CABA,6038,1
+1538,CABA,3525,1
+1539,Santa Fe,2636,3
+1540,La Plata,8593,1
+1541,Rosario,7551,3
+1542,Rafaela,6683,3
+1543,Río Cuarto,4852,2
+1544,Mar del Plata,2265,1
+1545,CABA,2521,1
+1546,CABA,7337,1
+1547,La Plata,8617,1
+1548,Mar del Plata,3635,1
+1549,Mar del Plata,8964,1
+1550,CABA,8377,1
+1551,La Plata,3930,1
+1552,La Plata,5224,1
+1553,Mar del Plata,5615,1
+1554,La Plata,5134,1
+1555,La Plata,5804,1
+1556,La Plata,2829,1
+1557,Río Cuarto,9765,2
+1558,CABA,8504,1
+1559,San Rafael,2253,4
+1560,CABA,7257,1
+1561,Mendoza,7922,4
+1562,Mar del Plata,8101,1
+1563,Rafaela,1800,3
+1564,Córdoba,5535,2
+1565,Río Cuarto,5467,2
+1566,CABA,5375,1
+1567,Río Cuarto,1296,2
+1568,Mar del Plata,7893,1
+1569,La Plata,6237,1
+1570,Rosario,9720,3
+1571,Villa Carlos Paz,8971,2
+1572,Mendoza,5981,4
+1573,Santa Fe,6761,3
+1574,CABA,4845,1
+1575,Mendoza,7483,4
+1576,CABA,7571,1
+1577,CABA,6950,1
+1578,Río Cuarto,4688,2
+1579,La Plata,7554,1
+1580,La Plata,7280,1
+1581,Godoy Cruz,3270,4
+1582,San Rafael,6325,4
+1583,Mar del Plata,1372,1
+1584,Córdoba,3870,2
+1585,Mendoza,1506,4
+1586,Villa Carlos Paz,4963,2
+1587,San Rafael,5011,4
+1588,Córdoba,9515,2
+1589,Rosario,9751,3
+1590,Mar del Plata,6953,1
+1591,Río Cuarto,3391,2
+1592,Rafaela,7764,3
+1593,CABA,6407,1
+1594,Mar del Plata,5838,1
+1595,La Plata,3294,1
+1596,CABA,5771,1
+1597,Mendoza,8206,4
+1598,Mar del Plata,7295,1
+1599,Córdoba,1197,2
+1600,Mar del Plata,6639,1
+1601,Río Cuarto,8950,2
+1602,Santa Fe,2060,3
+1603,CABA,4226,1
+1604,Mar del Plata,4318,1
+1605,Villa Carlos Paz,5447,2
+1606,San Rafael,9567,4
+1607,Mar del Plata,4741,1
+1608,Mar del Plata,4113,1
+1609,Mendoza,4728,4
+1610,Río Cuarto,6224,2
+1611,CABA,2636,1
+1612,Río Cuarto,8041,2
+1613,Villa Carlos Paz,1008,2
+1614,Rafaela,6384,3
+1615,La Plata,6589,1
+1616,Río Cuarto,3984,2
+1617,Mar del Plata,2074,1
+1618,Córdoba,4171,2
+1619,Rosario,9690,3
+1620,La Plata,6304,1
+1621,La Plata,6335,1
+1622,San Rafael,4747,4
+1623,La Plata,6798,1
+1624,La Plata,7620,1
+1625,Godoy Cruz,4313,4
+1626,Villa Carlos Paz,8004,2
+1627,Mar del Plata,5488,1
+1628,CABA,1753,1
+1629,Río Cuarto,1971,2
+1630,La Plata,5656,1
+1631,Mar del Plata,3486,1
+1632,Río Cuarto,5017,2
+1633,Río Cuarto,1358,2
+1634,Rosario,4016,3
+1635,La Plata,5183,1
+1636,Mar del Plata,1786,1
+1637,Mar del Plata,1525,1
+1638,Santa Fe,2099,3
+1639,Río Cuarto,8675,2
+1640,Rafaela,3493,3
+1641,Mar del Plata,1351,1
+1642,Córdoba,6281,2
+1643,CABA,4282,1
+1644,Rafaela,4377,3
+1645,CABA,9848,1
+1646,Godoy Cruz,4304,4
+1647,La Plata,3249,1
+1648,La Plata,7232,1
+1649,La Plata,2521,1
+1650,Mar del Plata,2971,1
+1651,Villa Carlos Paz,2487,2
+1652,La Plata,1118,1
+1653,Santa Fe,2069,3
+1654,San Rafael,7384,4
+1655,La Plata,3905,1
+1656,Mar del Plata,1638,1
+1657,Córdoba,3580,2
+1658,Mar del Plata,6981,1
+1659,Rosario,7114,3
+1660,Córdoba,1560,2
+1661,Mendoza,3591,4
+1662,CABA,8793,1
+1663,San Rafael,6102,4
+1664,La Plata,2579,1
+1665,Mar del Plata,3336,1
+1666,Río Cuarto,2724,2
+1667,CABA,9518,1
+1668,Villa Carlos Paz,3379,2
+1669,Villa Carlos Paz,3342,2
+1670,Rosario,8877,3
+1671,Rosario,8425,3
+1672,CABA,6525,1
+1673,La Plata,6609,1
+1674,La Plata,2549,1
+1675,Mendoza,3069,4
+1676,La Plata,7513,1
+1677,Mar del Plata,9611,1
+1678,Río Cuarto,9838,2
+1679,Río Cuarto,3713,2
+1680,Rafaela,4312,3
+1681,La Plata,8807,1
+1682,Mar del Plata,6105,1
+1683,San Rafael,3298,4
+1684,CABA,7406,1
+1685,La Plata,7577,1
+1686,Río Cuarto,5513,2
+1687,CABA,8718,1
+1688,Villa Carlos Paz,3517,2
+1689,Rafaela,5185,3
+1690,Villa Carlos Paz,5769,2
+1691,CABA,9102,1
+1692,Mar del Plata,5123,1
+1693,Mar del Plata,2656,1
+1694,La Plata,2703,1
+1695,Río Cuarto,1689,2
+1696,Río Cuarto,4909,2
+1697,Río Cuarto,6690,2
+1698,Rafaela,1420,3
+1699,Córdoba,1464,2
+1700,Santa Fe,5074,3
+1701,CABA,3631,1
+1702,Río Cuarto,3818,2
+1703,Santa Fe,6186,3
+1704,Mar del Plata,9146,1
+1705,Rosario,6521,3
+1706,Rosario,4109,3
+1707,San Rafael,7520,4
+1708,CABA,3388,1
+1709,La Plata,2346,1
+1710,Godoy Cruz,5485,4
+1711,Mar del Plata,4538,1
+1712,CABA,7791,1
+1713,Río Cuarto,7342,2
+1714,Villa Carlos Paz,4845,2
+1715,CABA,9819,1
+1716,Mar del Plata,4732,1
+1717,Río Cuarto,1871,2
+1718,Villa Carlos Paz,1362,2
+1719,Mar del Plata,2044,1
+1720,Mar del Plata,9041,1
+1721,Córdoba,6076,2
+1722,Villa Carlos Paz,3363,2
+1723,San Rafael,6871,4
+1724,Rosario,4188,3
+1725,Mendoza,2957,4
+1726,La Plata,7677,1
+1727,Córdoba,6818,2
+1728,Villa Carlos Paz,7576,2
+1729,Mar del Plata,9583,1
+1730,Mar del Plata,2564,1
+1731,Mar del Plata,6017,1
+1732,Rafaela,4088,3
+1733,CABA,7130,1
+1734,Rafaela,1497,3
+1735,Mendoza,3955,4
+1736,CABA,6527,1
+1737,San Rafael,6543,4
+1738,CABA,6870,1
+1739,Godoy Cruz,6251,4
+1740,Río Cuarto,5629,2
+1741,CABA,8129,1
+1742,CABA,7370,1
+1743,La Plata,2461,1
+1744,Rafaela,1785,3
+1745,La Plata,8107,1
+1746,CABA,4514,1
+1747,CABA,4335,1
+1748,Mar del Plata,2905,1
+1749,CABA,7091,1
+1750,CABA,7927,1
+1751,Mar del Plata,7813,1
+1752,CABA,7479,1
+1753,Villa Carlos Paz,2155,2
+1754,La Plata,3742,1
+1755,San Rafael,5664,4
+1756,CABA,4289,1
+1757,CABA,4746,1
+1758,Rosario,8142,3
+1759,CABA,4447,1
+1760,CABA,6736,1
+1761,Mar del Plata,5780,1
+1762,CABA,1414,1
+1763,CABA,3348,1
+1764,Mendoza,9487,4
+1765,Mar del Plata,1629,1
+1766,San Rafael,1957,4
+1767,Rosario,1324,3
+1768,San Rafael,8367,4
+1769,Río Cuarto,8850,2
+1770,La Plata,7364,1
+1771,Santa Fe,1697,3
+1772,Mar del Plata,4409,1
+1773,La Plata,7364,1
+1774,La Plata,5030,1
+1775,Río Cuarto,8591,2
+1776,Santa Fe,7436,3
+1777,Mar del Plata,1833,1
+1778,Mar del Plata,3954,1
+1779,CABA,5478,1
+1780,Rafaela,7738,3
+1781,Mar del Plata,2590,1
+1782,CABA,6844,1
+1783,Córdoba,8317,2
+1784,CABA,3490,1
+1785,Mar del Plata,5607,1
+1786,San Rafael,3221,4
+1787,La Plata,8224,1
+1788,CABA,6566,1
+1789,Rosario,7449,3
+1790,Mar del Plata,2361,1
+1791,Villa Carlos Paz,3769,2
+1792,Rosario,9021,3
+1793,Mendoza,8355,4
+1794,La Plata,1514,1
+1795,Rafaela,5959,3
+1796,La Plata,7146,1
+1797,Mar del Plata,3168,1
+1798,Río Cuarto,2364,2
+1799,Mendoza,3105,4
+1800,CABA,2431,1
+1801,CABA,8549,1
+1802,Rosario,4268,3
+1803,Mar del Plata,4444,1
+1804,Villa Carlos Paz,8799,2
+1805,Villa Carlos Paz,5719,2
+1806,Mar del Plata,5313,1
+1807,Rafaela,4083,3
+1808,Rosario,7754,3
+1809,Córdoba,9692,2
+1810,Río Cuarto,2009,2
+1811,Mar del Plata,8306,1
+1812,San Rafael,2079,4
+1813,Villa Carlos Paz,7069,2
+1814,La Plata,4737,1
+1815,La Plata,7606,1
+1816,Santa Fe,7874,3
+1817,Santa Fe,6991,3
+1818,Mar del Plata,4555,1
+1819,La Plata,1355,1
+1820,La Plata,8971,1
+1821,CABA,2736,1
+1822,San Rafael,4852,4
+1823,Mendoza,3598,4
+1824,Río Cuarto,9677,2
+1825,La Plata,2034,1
+1826,La Plata,6120,1
+1827,Rafaela,3082,3
+1828,Rafaela,5081,3
+1829,Córdoba,3430,2
+1830,La Plata,2096,1
+1831,CABA,1967,1
+1832,Mar del Plata,3394,1
+1833,Godoy Cruz,4083,4
+1834,CABA,5066,1
+1835,CABA,5851,1
+1836,Mar del Plata,3418,1
+1837,Río Cuarto,2765,2
+1838,CABA,3105,1
+1839,Mendoza,7042,4
+1840,Mar del Plata,6306,1
+1841,Mar del Plata,1645,1
+1842,Mar del Plata,3292,1
+1843,CABA,6540,1
+1844,CABA,9596,1
+1845,Villa Carlos Paz,8348,2
+1846,La Plata,1859,1
+1847,CABA,9201,1
+1848,Mar del Plata,9064,1
+1849,Río Cuarto,4278,2
+1850,Mar del Plata,7031,1
+1851,Rosario,5610,3
+1852,Río Cuarto,6480,2
+1853,La Plata,8399,1
+1854,Mar del Plata,2846,1
+1855,CABA,4511,1
+1856,CABA,9373,1
+1857,CABA,7366,1
+1858,La Plata,5675,1
+1859,CABA,1183,1
+1860,Godoy Cruz,2593,4
+1861,Mar del Plata,2246,1
+1862,CABA,3323,1
+1863,CABA,8807,1
+1864,CABA,5424,1
+1865,Villa Carlos Paz,4530,2
+1866,La Plata,8630,1
+1867,CABA,5601,1
+1868,Córdoba,4081,2
+1869,Córdoba,4793,2
+1870,CABA,9922,1
+1871,La Plata,6681,1
+1872,La Plata,3418,1
+1873,Villa Carlos Paz,3255,2
+1874,San Rafael,1700,4
+1875,Mar del Plata,3285,1
+1876,Santa Fe,9512,3
+1877,Villa Carlos Paz,6486,2
+1878,Mar del Plata,4589,1
+1879,Río Cuarto,3551,2
+1880,Río Cuarto,6022,2
+1881,Santa Fe,4129,3
+1882,La Plata,2098,1
+1883,CABA,1173,1
+1884,La Plata,1686,1
+1885,Godoy Cruz,8759,4
+1886,Rosario,9033,3
+1887,La Plata,2359,1
+1888,Río Cuarto,4954,2
+1889,La Plata,7727,1
+1890,CABA,2132,1
+1891,La Plata,5148,1
+1892,Villa Carlos Paz,1652,2
+1893,Villa Carlos Paz,4262,2
+1894,CABA,7172,1
+1895,CABA,4747,1
+1896,Rosario,1387,3
+1897,Mar del Plata,9904,1
+1898,CABA,2096,1
+1899,Mar del Plata,3253,1
+1900,CABA,8308,1
+1901,La Plata,7770,1
+1902,Córdoba,7401,2
+1903,Mar del Plata,9692,1
+1904,CABA,4091,1
+1905,CABA,3393,1
+1906,Rosario,3698,3
+1907,Villa Carlos Paz,1977,2
+1908,La Plata,7402,1
+1909,Córdoba,3576,2
+1910,Villa Carlos Paz,7837,2
+1911,Río Cuarto,5544,2
+1912,Mar del Plata,6048,1
+1913,La Plata,8689,1
+1914,La Plata,5122,1
+1915,Godoy Cruz,6311,4
+1916,Villa Carlos Paz,5563,2
+1917,Río Cuarto,4112,2
+1918,Río Cuarto,2920,2
+1919,Córdoba,9142,2
+1920,La Plata,3397,1
+1921,Villa Carlos Paz,1053,2
+1922,La Plata,9374,1
+1923,CABA,8804,1
+1924,CABA,1892,1
+1925,Santa Fe,3087,3
+1926,San Rafael,1161,4
+1927,Mar del Plata,4776,1
+1928,Río Cuarto,3485,2
+1929,Villa Carlos Paz,9875,2
+1930,Mendoza,8966,4
+1931,La Plata,3843,1
+1932,CABA,7335,1
+1933,CABA,8250,1
+1934,Villa Carlos Paz,4360,2
+1935,Mar del Plata,9315,1
+1936,Rafaela,7187,3
+1937,Rosario,5491,3
+1938,Córdoba,4998,2
+1939,CABA,7241,1
+1940,Mar del Plata,5176,1
+1941,La Plata,4590,1
+1942,Córdoba,4745,2
+1943,Córdoba,5102,2
+1944,La Plata,8141,1
+1945,Rosario,9528,3
+1946,CABA,5722,1
+1947,La Plata,2262,1
+1948,Santa Fe,7044,3
+1949,CABA,5461,1
+1950,Rafaela,3736,3
+1951,CABA,8576,1
+1952,Mar del Plata,1692,1
+1953,Mendoza,7471,4
+1954,La Plata,7638,1
+1955,La Plata,1596,1
+1956,La Plata,7268,1
+1957,CABA,4531,1
+1958,Rosario,5947,3
+1959,CABA,7541,1
+1960,Villa Carlos Paz,1841,2
+1961,San Rafael,6743,4
+1962,San Rafael,6812,4
+1963,Córdoba,4169,2
+1964,Mendoza,1981,4
+1965,Mar del Plata,7609,1
+1966,Santa Fe,7028,3
+1967,Rafaela,9420,3
+1968,Río Cuarto,7191,2
+1969,Villa Carlos Paz,2526,2
+1970,CABA,3178,1
+1971,CABA,4450,1
+1972,Mendoza,2082,4
+1973,CABA,6615,1
+1974,Santa Fe,6349,3
+1975,Mar del Plata,5018,1
+1976,Santa Fe,9173,3
+1977,Mar del Plata,4663,1
+1978,Rosario,7760,3
+1979,La Plata,8883,1
+1980,Rosario,7786,3
+1981,Godoy Cruz,8971,4
+1982,Godoy Cruz,4852,4
+1983,CABA,7174,1
+1984,CABA,9071,1
+1985,San Rafael,3909,4
+1986,La Plata,1662,1
+1987,Santa Fe,1647,3
+1988,Rosario,5379,3
+1989,Río Cuarto,2064,2
+1990,Villa Carlos Paz,9133,2
+1991,Córdoba,8744,2
+1992,Mar del Plata,7848,1
+1993,Santa Fe,3436,3
+1994,CABA,8355,1
+1995,CABA,4919,1
+1996,CABA,4436,1
+1997,Villa Carlos Paz,2082,2
+1998,La Plata,7512,1
+1999,La Plata,1121,1
+2000,Godoy Cruz,1688,4
+2001,Mar del Plata,7846,1
+2002,Rafaela,6524,3
+2003,Mar del Plata,9273,1
+2004,Mar del Plata,8126,1
+2005,Mar del Plata,1729,1
+2006,La Plata,7836,1
+2007,San Rafael,8360,4
+2008,Mar del Plata,7468,1
+2009,CABA,7504,1
+2010,CABA,1267,1
+2011,Rafaela,9136,3
+2012,Mar del Plata,6383,1
+2013,CABA,6386,1
+2014,Mendoza,3769,4
+2015,Villa Carlos Paz,6921,2
+2016,Santa Fe,2248,3
+2017,Rosario,2857,3
+2018,Mar del Plata,8884,1
+2019,Santa Fe,4101,3
+2020,San Rafael,3658,4
+2021,Mar del Plata,1488,1
+2022,Santa Fe,3744,3
+2023,Villa Carlos Paz,4715,2
+2024,Villa Carlos Paz,4262,2
+2025,CABA,7103,1
+2026,CABA,2572,1
+2027,Córdoba,6582,2
+2028,Córdoba,5807,2
+2029,Rosario,7219,3
+2030,La Plata,9163,1
+2031,Villa Carlos Paz,4027,2
+2032,Rafaela,2857,3
+2033,Godoy Cruz,2291,4
+2034,La Plata,5874,1
+2035,Rosario,5408,3
+2036,CABA,1696,1
+2037,Santa Fe,5056,3
+2038,CABA,8705,1
+2039,Córdoba,7683,2
+2040,Villa Carlos Paz,9971,2
+2041,CABA,6640,1
+2042,Mar del Plata,5080,1
+2043,Villa Carlos Paz,7644,2
+2044,Río Cuarto,5076,2
+2045,Córdoba,7467,2
+2046,Godoy Cruz,2814,4
+2047,La Plata,3019,1
+2048,La Plata,8264,1
+2049,Rosario,4977,3
+2050,La Plata,8099,1
+2051,CABA,7773,1
+2052,Rosario,1225,3
+2053,Rafaela,5967,3
+2054,Mar del Plata,3628,1
+2055,CABA,7300,1
+2056,San Rafael,5385,4
+2057,Mar del Plata,7614,1
+2058,CABA,9682,1
+2059,Río Cuarto,7876,2
+2060,CABA,7960,1
+2061,Villa Carlos Paz,6847,2
+2062,Mar del Plata,6507,1
+2063,CABA,8058,1
+2064,CABA,7729,1
+2065,La Plata,9987,1
+2066,Córdoba,1599,2
+2067,Mar del Plata,4425,1
+2068,CABA,1723,1
+2069,Río Cuarto,9020,2
+2070,Santa Fe,5549,3
+2071,La Plata,1440,1
+2072,San Rafael,3819,4
+2073,CABA,3172,1
+2074,Mar del Plata,1515,1
+2075,Río Cuarto,8074,2
+2076,Córdoba,7136,2
+2077,Mar del Plata,4469,1
+2078,CABA,5360,1
+2079,Río Cuarto,8422,2
+2080,Rafaela,8357,3
+2081,La Plata,1328,1
+2082,La Plata,3077,1
+2083,Mar del Plata,7465,1
+2084,CABA,1831,1
+2085,Rafaela,6556,3
+2086,La Plata,3921,1
+2087,CABA,9486,1
+2088,Córdoba,6273,2
+2089,La Plata,1447,1
+2090,Rafaela,2328,3
+2091,Villa Carlos Paz,1937,2
+2092,Villa Carlos Paz,9257,2
+2093,Santa Fe,9847,3
+2094,Mar del Plata,9215,1
+2095,La Plata,1430,1
+2096,Córdoba,6594,2
+2097,Mar del Plata,7188,1
+2098,La Plata,6269,1
+2099,Villa Carlos Paz,1686,2
+2100,Río Cuarto,4938,2
+2101,Río Cuarto,1278,2
+2102,CABA,7417,1
+2103,Rosario,5286,3
+2104,San Rafael,5079,4
+2105,Mar del Plata,7548,1
+2106,Mar del Plata,5835,1
+2107,Mar del Plata,1339,1
+2108,Rafaela,4504,3
+2109,La Plata,5777,1
+2110,La Plata,4753,1
+2111,Mar del Plata,2386,1
+2112,La Plata,4700,1
+2113,Mar del Plata,6432,1
+2114,Mar del Plata,1615,1
+2115,Córdoba,4423,2
+2116,Mar del Plata,7467,1
+2117,Rosario,9621,3
+2118,Córdoba,4950,2
+2119,Córdoba,6292,2
+2120,La Plata,9272,1
+2121,Santa Fe,9592,3
+2122,CABA,6481,1
+2123,CABA,7181,1
+2124,Mar del Plata,2961,1
+2125,San Rafael,3194,4
+2126,Mar del Plata,2783,1
+2127,CABA,1432,1
+2128,Santa Fe,4532,3
+2129,CABA,7852,1
+2130,CABA,1702,1
+2131,Villa Carlos Paz,8133,2
+2132,CABA,1294,1
+2133,Mendoza,7518,4
+2134,Rosario,2190,3
+2135,Mendoza,6579,4
+2136,La Plata,2782,1
+2137,Villa Carlos Paz,4454,2
+2138,Santa Fe,1081,3
+2139,Mendoza,9660,4
+2140,CABA,1874,1
+2141,Villa Carlos Paz,2062,2
+2142,CABA,3713,1
+2143,Rafaela,7158,3
+2144,Rafaela,2468,3
+2145,Mar del Plata,3407,1
+2146,Villa Carlos Paz,3869,2
+2147,CABA,1897,1
+2148,Córdoba,2928,2
+2149,Rosario,6070,3
+2150,San Rafael,6337,4
+2151,Río Cuarto,5664,2
+2152,Santa Fe,6592,3
+2153,CABA,8113,1
+2154,Mar del Plata,7667,1
+2155,Mendoza,2609,4
+2156,Rafaela,5127,3
+2157,Santa Fe,9339,3
+2158,Córdoba,1016,2
+2159,Río Cuarto,2025,2
+2160,La Plata,4167,1
+2161,Rosario,5575,3
+2162,Mar del Plata,8424,1
+2163,Rafaela,7736,3
+2164,La Plata,1275,1
+2165,Mar del Plata,8356,1
+2166,Villa Carlos Paz,1318,2
+2167,Rafaela,7299,3
+2168,San Rafael,7509,4
+2169,Villa Carlos Paz,8436,2
+2170,CABA,4319,1
+2171,Godoy Cruz,8606,4
+2172,CABA,1007,1
+2173,La Plata,3168,1
+2174,Mar del Plata,4575,1
+2175,Mar del Plata,1805,1
+2176,Santa Fe,9360,3
+2177,Mendoza,4874,4
+2178,La Plata,3322,1
+2179,Villa Carlos Paz,1229,2
+2180,Villa Carlos Paz,4168,2
+2181,La Plata,9049,1
+2182,La Plata,9442,1
+2183,La Plata,8366,1
+2184,Mar del Plata,7599,1
+2185,Mar del Plata,7636,1
+2186,Rosario,9857,3
+2187,CABA,6372,1
+2188,La Plata,2718,1
+2189,CABA,2191,1
+2190,La Plata,4853,1
+2191,Río Cuarto,3078,2
+2192,Rosario,9884,3
+2193,San Rafael,5884,4
+2194,Rafaela,2376,3
+2195,Mar del Plata,8231,1
+2196,CABA,7397,1
+2197,Mar del Plata,5503,1
+2198,Rafaela,9108,3
+2199,Mar del Plata,9287,1
+2200,Córdoba,9092,2
+2201,Rafaela,7530,3
+2202,Córdoba,1489,2
+2203,Santa Fe,8481,3
+2204,CABA,6613,1
+2205,CABA,4213,1
+2206,Mar del Plata,3180,1
+2207,Villa Carlos Paz,6573,2
+2208,CABA,8918,1
+2209,Godoy Cruz,7613,4
+2210,Rosario,2674,3
+2211,Rafaela,7049,3
+2212,Mar del Plata,6314,1
+2213,Villa Carlos Paz,4181,2
+2214,Córdoba,8884,2
+2215,CABA,5409,1
+2216,La Plata,6328,1
+2217,La Plata,3842,1
+2218,Córdoba,4901,2
+2219,La Plata,3452,1
+2220,CABA,7273,1
+2221,Mendoza,3156,4
+2222,La Plata,7589,1
+2223,Santa Fe,6315,3
+2224,La Plata,3745,1
+2225,La Plata,9869,1
+2226,Villa Carlos Paz,3912,2
+2227,Mar del Plata,6444,1
+2228,CABA,7103,1
+2229,Córdoba,6340,2
+2230,CABA,9548,1
+2231,Villa Carlos Paz,5651,2
+2232,Mar del Plata,9038,1
+2233,Mar del Plata,5795,1
+2234,CABA,7042,1
+2235,CABA,3190,1
+2236,Rosario,5994,3
+2237,Mar del Plata,7805,1
+2238,CABA,9724,1
+2239,Santa Fe,3899,3
+2240,Santa Fe,5352,3
+2241,CABA,2478,1
+2242,Rafaela,2675,3
+2243,CABA,3876,1
+2244,CABA,4049,1
+2245,CABA,7749,1
+2246,San Rafael,5967,4
+2247,Córdoba,5006,2
+2248,Mar del Plata,9013,1
+2249,Villa Carlos Paz,5049,2
+2250,Villa Carlos Paz,3956,2
+2251,Río Cuarto,8211,2
+2252,La Plata,9634,1
+2253,Córdoba,9502,2
+2254,CABA,1889,1
+2255,CABA,8628,1
+2256,Mar del Plata,7098,1
+2257,CABA,4309,1
+2258,La Plata,6254,1
+2259,La Plata,1374,1
+2260,Córdoba,2515,2
+2261,La Plata,1080,1
+2262,Mendoza,2522,4
+2263,CABA,4395,1
+2264,Mar del Plata,1876,1
+2265,Río Cuarto,7597,2
+2266,CABA,8315,1
+2267,Río Cuarto,4507,2
+2268,CABA,9784,1
+2269,Villa Carlos Paz,5621,2
+2270,La Plata,9598,1
+2271,Mendoza,3459,4
+2272,CABA,6733,1
+2273,Rosario,3100,3
+2274,Rosario,5513,3
+2275,La Plata,7346,1
+2276,Rosario,3558,3
+2277,La Plata,3653,1
+2278,La Plata,8259,1
+2279,Mar del Plata,3072,1
+2280,CABA,1124,1
+2281,Villa Carlos Paz,1276,2
+2282,Godoy Cruz,7038,4
+2283,Santa Fe,7094,3
+2284,CABA,3242,1
+2285,CABA,2941,1
+2286,CABA,2644,1
+2287,CABA,9919,1
+2288,Mar del Plata,1499,1
+2289,San Rafael,9329,4
+2290,CABA,6441,1
+2291,Godoy Cruz,5919,4
+2292,Rosario,1285,3
+2293,La Plata,8320,1
+2294,Río Cuarto,2974,2
+2295,CABA,8200,1
+2296,Santa Fe,2049,3
+2297,CABA,5358,1
+2298,CABA,2111,1
+2299,Mar del Plata,5133,1
+2300,Mar del Plata,5416,1
+2301,Mar del Plata,5186,1
+2302,Mar del Plata,7471,1
+2303,San Rafael,8589,4
+2304,Villa Carlos Paz,2672,2
+2305,Mendoza,1804,4
+2306,La Plata,8158,1
+2307,Mar del Plata,2866,1
+2308,Rosario,1431,3
+2309,Mar del Plata,2458,1
+2310,CABA,2557,1
+2311,Mendoza,3401,4
+2312,La Plata,9326,1
+2313,Rosario,9767,3
+2314,CABA,8214,1
+2315,CABA,5251,1
+2316,La Plata,3946,1
+2317,CABA,2376,1
+2318,La Plata,9268,1
+2319,La Plata,5376,1
+2320,Córdoba,2843,2
+2321,La Plata,8987,1
+2322,Río Cuarto,7183,2
+2323,La Plata,3977,1
+2324,Río Cuarto,7165,2
+2325,Mar del Plata,5352,1
+2326,CABA,6538,1
+2327,CABA,5509,1
+2328,CABA,9759,1
+2329,Mar del Plata,3252,1
+2330,CABA,7961,1
+2331,Córdoba,2850,2
+2332,Mar del Plata,2768,1
+2333,Mar del Plata,5073,1
+2334,Godoy Cruz,6446,4
+2335,Godoy Cruz,5295,4
+2336,Villa Carlos Paz,5737,2
+2337,Mar del Plata,8933,1
+2338,Rosario,9957,3
+2339,San Rafael,2587,4
+2340,La Plata,6348,1
+2341,San Rafael,9821,4
+2342,Río Cuarto,6105,2
+2343,La Plata,6137,1
+2344,Mar del Plata,1959,1
+2345,Mendoza,2857,4
+2346,La Plata,4393,1
+2347,La Plata,6368,1
+2348,Villa Carlos Paz,5933,2
+2349,Mar del Plata,7165,1
+2350,Villa Carlos Paz,9151,2
+2351,La Plata,6156,1
+2352,Santa Fe,8382,3
+2353,Rosario,7965,3
+2354,La Plata,4019,1
+2355,La Plata,6685,1
+2356,Mendoza,3865,4
+2357,La Plata,6089,1
+2358,La Plata,2295,1
+2359,CABA,9739,1
+2360,Córdoba,8775,2
+2361,Godoy Cruz,2296,4
+2362,Villa Carlos Paz,3210,2
+2363,Rosario,3697,3
+2364,La Plata,4735,1
+2365,Mar del Plata,6740,1
+2366,La Plata,3021,1
+2367,Córdoba,5396,2
+2368,La Plata,5672,1
+2369,CABA,4171,1
+2370,Godoy Cruz,2390,4
+2371,La Plata,3725,1
+2372,CABA,2192,1
+2373,CABA,5045,1
+2374,Mar del Plata,6324,1
+2375,CABA,4760,1
+2376,Mar del Plata,8217,1
+2377,Mar del Plata,5568,1
+2378,Mar del Plata,1876,1
+2379,Mar del Plata,4562,1
+2380,Río Cuarto,4947,2
+2381,La Plata,9828,1
+2382,Rafaela,1998,3
+2383,Godoy Cruz,8853,4
+2384,La Plata,1596,1
+2385,Rafaela,3867,3
+2386,CABA,3666,1
+2387,Mar del Plata,1492,1
+2388,Mendoza,4474,4
+2389,CABA,3879,1
+2390,Mar del Plata,7216,1
+2391,CABA,7328,1
+2392,CABA,2522,1
+2393,Mar del Plata,4997,1
+2394,Córdoba,4194,2
+2395,Mar del Plata,1059,1
+2396,Córdoba,7063,2
+2397,San Rafael,6429,4
+2398,Mendoza,7915,4
+2399,CABA,2479,1
+2400,Mendoza,7534,4
+2401,Santa Fe,7017,3
+2402,Santa Fe,3307,3
+2403,Mar del Plata,7363,1
+2404,Rafaela,8741,3
+2405,San Rafael,1501,4
+2406,Santa Fe,8446,3
+2407,Mar del Plata,3174,1
+2408,Santa Fe,7228,3
+2409,CABA,3280,1
+2410,Santa Fe,8545,3
+2411,Mar del Plata,8999,1
+2412,CABA,5592,1
+2413,Río Cuarto,3900,2
+2414,La Plata,8360,1
+2415,Santa Fe,6678,3
+2416,CABA,1047,1
+2417,La Plata,1815,1
+2418,Córdoba,8526,2
+2419,CABA,6375,1
+2420,CABA,3636,1
+2421,Córdoba,7381,2
+2422,Godoy Cruz,6757,4
+2423,Córdoba,1016,2
+2424,Rosario,2324,3
+2425,Córdoba,4270,2
+2426,CABA,1075,1
+2427,Mar del Plata,6361,1
+2428,Mar del Plata,7769,1
+2429,Villa Carlos Paz,5571,2
+2430,Santa Fe,8768,3
+2431,Rafaela,1581,3
+2432,CABA,4633,1
+2433,La Plata,5194,1
+2434,Rosario,7645,3
+2435,Godoy Cruz,4174,4
+2436,Mar del Plata,9964,1
+2437,Godoy Cruz,7650,4
+2438,La Plata,5533,1
+2439,La Plata,7505,1
+2440,CABA,6317,1
+2441,Mar del Plata,4826,1
+2442,Mendoza,1312,4
+2443,La Plata,3902,1
+2444,Villa Carlos Paz,2362,2
+2445,Mendoza,6854,4
+2446,La Plata,6525,1
+2447,Rosario,8211,3
+2448,La Plata,4133,1
+2449,Mar del Plata,1459,1
+2450,Córdoba,4542,2
+2451,Rosario,1049,3
+2452,CABA,2055,1
+2453,Mar del Plata,3855,1
+2454,CABA,3400,1
+2455,CABA,1213,1
+2456,La Plata,8196,1
+2457,Mar del Plata,3053,1
+2458,Río Cuarto,4686,2
+2459,La Plata,6375,1
+2460,Mar del Plata,4481,1
+2461,CABA,8526,1
+2462,Mar del Plata,4585,1
+2463,CABA,1652,1
+2464,Rosario,9362,3
+2465,CABA,8275,1
+2466,Rafaela,8479,3
+2467,Rafaela,4048,3
+2468,Mar del Plata,7475,1
+2469,CABA,3317,1
+2470,Mar del Plata,8591,1
+2471,Córdoba,6640,2
+2472,Mar del Plata,3756,1
+2473,Río Cuarto,9556,2
+2474,Río Cuarto,2743,2
+2475,CABA,6127,1
+2476,Villa Carlos Paz,7254,2
+2477,Mar del Plata,9765,1
+2478,La Plata,3824,1
+2479,La Plata,3754,1
+2480,CABA,9792,1
+2481,Córdoba,5128,2
+2482,La Plata,9599,1
+2483,La Plata,1167,1
+2484,Río Cuarto,1830,2
+2485,San Rafael,8191,4
+2486,CABA,1678,1
+2487,La Plata,7485,1
+2488,CABA,8208,1
+2489,La Plata,3163,1
+2490,Río Cuarto,2212,2
+2491,Mar del Plata,2955,1
+2492,Mar del Plata,7420,1
+2493,CABA,1229,1
+2494,La Plata,8544,1
+2495,Mar del Plata,6931,1
+2496,Mar del Plata,8224,1
+2497,CABA,7829,1
+2498,Mar del Plata,4109,1
+2499,Santa Fe,5841,3
+2500,La Plata,5367,1
+2501,Mar del Plata,2607,1
+2502,CABA,5319,1
+2503,La Plata,8551,1
+2504,Rafaela,4684,3
+2505,CABA,2289,1
+2506,Rafaela,5375,3
+2507,Rafaela,9181,3
+2508,Santa Fe,6496,3
+2509,CABA,5437,1
+2510,Mar del Plata,8059,1
+2511,Mendoza,7061,4
+2512,CABA,9323,1
+2513,Rosario,7081,3
+2514,La Plata,8425,1
+2515,La Plata,7304,1
+2516,Godoy Cruz,5060,4
+2517,Mendoza,1914,4
+2518,Córdoba,1491,2
+2519,Río Cuarto,3736,2
+2520,Mendoza,2513,4
+2521,CABA,3887,1
+2522,Rafaela,1796,3
+2523,Mar del Plata,9667,1
+2524,Rafaela,8421,3
+2525,Villa Carlos Paz,8668,2
+2526,CABA,3498,1
+2527,Mendoza,1595,4
+2528,Godoy Cruz,6065,4
+2529,Mar del Plata,5933,1
+2530,San Rafael,9099,4
+2531,Mendoza,6751,4
+2532,La Plata,8940,1
+2533,Mar del Plata,4844,1
+2534,Mar del Plata,9555,1
+2535,La Plata,6800,1
+2536,La Plata,1569,1
+2537,CABA,7374,1
+2538,Rosario,1632,3
+2539,CABA,4641,1
+2540,Río Cuarto,8122,2
+2541,La Plata,8251,1
+2542,CABA,3644,1
+2543,CABA,6670,1
+2544,San Rafael,3926,4
+2545,La Plata,7088,1
+2546,Mendoza,9709,4
+2547,Mar del Plata,1103,1
+2548,Córdoba,3432,2
+2549,Rosario,1939,3
+2550,Rafaela,6986,3
+2551,Mar del Plata,6217,1
+2552,Córdoba,5385,2
+2553,Mar del Plata,1277,1
+2554,Villa Carlos Paz,8386,2
+2555,CABA,1297,1
+2556,CABA,2574,1
+2557,Córdoba,4991,2
+2558,San Rafael,7651,4
+2559,Río Cuarto,7985,2
+2560,Rosario,8173,3
+2561,Córdoba,9924,2
+2562,Mar del Plata,4326,1
+2563,Río Cuarto,1505,2
+2564,Río Cuarto,3371,2
+2565,Mar del Plata,8967,1
+2566,La Plata,8863,1
+2567,Córdoba,7482,2
+2568,Mar del Plata,8337,1
+2569,Mendoza,7989,4
+2570,La Plata,6783,1
+2571,Villa Carlos Paz,5462,2
+2572,CABA,6867,1
+2573,Villa Carlos Paz,7077,2
+2574,Córdoba,9667,2
+2575,Mar del Plata,2283,1
+2576,Río Cuarto,6712,2
+2577,La Plata,5786,1
+2578,La Plata,7480,1
+2579,Rosario,5670,3
+2580,Villa Carlos Paz,3393,2
+2581,La Plata,4580,1
+2582,Río Cuarto,3583,2
+2583,San Rafael,2886,4
+2584,Santa Fe,4157,3
+2585,Villa Carlos Paz,3058,2
+2586,CABA,5987,1
+2587,Mendoza,3317,4
+2588,CABA,7446,1
+2589,Mar del Plata,8722,1
+2590,Villa Carlos Paz,2126,2
+2591,Río Cuarto,7497,2
+2592,CABA,1787,1
+2593,CABA,1548,1
+2594,La Plata,4406,1
+2595,CABA,9264,1
+2596,Rafaela,3307,3
+2597,Mar del Plata,8983,1
+2598,Rosario,5949,3
+2599,Rosario,1768,3
+2600,Mar del Plata,6543,1
+2601,La Plata,9524,1
+2602,Córdoba,6409,2
+2603,Córdoba,1359,2
+2604,La Plata,8008,1
+2605,CABA,6691,1
+2606,Mar del Plata,4450,1
+2607,CABA,8989,1
+2608,CABA,3081,1
+2609,CABA,8441,1
+2610,San Rafael,1958,4
+2611,Rafaela,2664,3
+2612,Río Cuarto,2734,2
+2613,Mendoza,9795,4
+2614,Mar del Plata,9286,1
+2615,La Plata,7312,1
+2616,Santa Fe,5053,3
+2617,CABA,2633,1
+2618,CABA,4861,1
+2619,San Rafael,2211,4
+2620,Santa Fe,3474,3
+2621,Mar del Plata,6215,1
+2622,CABA,5170,1
+2623,La Plata,5739,1
+2624,La Plata,5270,1
+2625,Rosario,9840,3
+2626,La Plata,5992,1
+2627,Santa Fe,1192,3
+2628,CABA,9314,1
+2629,La Plata,5216,1
+2630,Mar del Plata,7784,1
+2631,La Plata,3621,1
+2632,Córdoba,9892,2
+2633,Mar del Plata,3583,1
+2634,Córdoba,1688,2
+2635,Villa Carlos Paz,5003,2
+2636,Córdoba,3947,2
+2637,CABA,6564,1
+2638,Mar del Plata,1714,1
+2639,Córdoba,3896,2
+2640,CABA,9378,1
+2641,Río Cuarto,9778,2
+2642,Godoy Cruz,9697,4
+2643,Mar del Plata,3188,1
+2644,La Plata,8245,1
+2645,La Plata,7581,1
+2646,Godoy Cruz,3118,4
+2647,CABA,3372,1
+2648,CABA,1745,1
+2649,La Plata,8956,1
+2650,San Rafael,3513,4
+2651,Río Cuarto,3635,2
+2652,Córdoba,8077,2
+2653,Mar del Plata,1088,1
+2654,San Rafael,9912,4
+2655,CABA,6351,1
+2656,Mar del Plata,6820,1
+2657,Villa Carlos Paz,1977,2
+2658,Mar del Plata,4998,1
+2659,Mar del Plata,4339,1
+2660,Santa Fe,9885,3
+2661,La Plata,2780,1
+2662,Mendoza,4295,4
+2663,Córdoba,6723,2
+2664,Mar del Plata,1324,1
+2665,Godoy Cruz,7922,4
+2666,Rosario,5364,3
+2667,Rafaela,7713,3
+2668,Mar del Plata,9736,1
+2669,La Plata,1272,1
+2670,Villa Carlos Paz,3798,2
+2671,Córdoba,6047,2
+2672,Córdoba,8129,2
+2673,Rafaela,8291,3
+2674,Córdoba,2031,2
+2675,Villa Carlos Paz,8492,2
+2676,Villa Carlos Paz,7645,2
+2677,Mar del Plata,2843,1
+2678,La Plata,4379,1
+2679,Río Cuarto,9744,2
+2680,La Plata,1162,1
+2681,Mendoza,8515,4
+2682,La Plata,9918,1
+2683,La Plata,1008,1
+2684,Rafaela,6404,3
+2685,Mar del Plata,5291,1
+2686,Villa Carlos Paz,7071,2
+2687,CABA,7607,1
+2688,Río Cuarto,6856,2
+2689,Mar del Plata,9869,1
+2690,Mar del Plata,2938,1
+2691,La Plata,8007,1
+2692,Rosario,5964,3
+2693,Mar del Plata,6618,1
+2694,Villa Carlos Paz,7190,2
+2695,Rosario,8826,3
+2696,La Plata,1129,1
+2697,Mar del Plata,9174,1
+2698,La Plata,7100,1
+2699,Villa Carlos Paz,6120,2
+2700,CABA,4574,1
+2701,Mar del Plata,7461,1
+2702,Córdoba,3345,2
+2703,La Plata,6677,1
+2704,Mar del Plata,3964,1
+2705,La Plata,7653,1
+2706,Godoy Cruz,8350,4
+2707,CABA,6054,1
+2708,La Plata,6998,1
+2709,CABA,2837,1
+2710,Mar del Plata,4267,1
+2711,Mar del Plata,9000,1
+2712,CABA,7902,1
+2713,Rosario,7997,3
+2714,Mar del Plata,6777,1
+2715,La Plata,4013,1
+2716,Villa Carlos Paz,7694,2
+2717,Rosario,9386,3
+2718,Mar del Plata,4080,1
+2719,La Plata,8253,1
+2720,San Rafael,4677,4
+2721,Rosario,7161,3
+2722,La Plata,1605,1
+2723,Mar del Plata,1277,1
+2724,San Rafael,9852,4
+2725,Villa Carlos Paz,7387,2
+2726,Río Cuarto,7073,2
+2727,La Plata,9518,1
+2728,San Rafael,3350,4
+2729,Mar del Plata,3255,1
+2730,CABA,1235,1
+2731,Rafaela,5356,3
+2732,CABA,2359,1
+2733,Río Cuarto,8117,2
+2734,CABA,9827,1
+2735,La Plata,2726,1
+2736,CABA,7929,1
+2737,La Plata,9267,1
+2738,Rafaela,4197,3
+2739,Córdoba,2307,2
+2740,Mar del Plata,3202,1
+2741,CABA,9701,1
+2742,Rosario,5643,3
+2743,CABA,4384,1
+2744,La Plata,7587,1
+2745,Mendoza,5019,4
+2746,Mar del Plata,9921,1
+2747,Godoy Cruz,8378,4
+2748,La Plata,4046,1
+2749,CABA,7437,1
+2750,Río Cuarto,8486,2
+2751,Rafaela,7715,3
+2752,CABA,7188,1
+2753,Mar del Plata,8566,1
+2754,Córdoba,7710,2
+2755,La Plata,3217,1
+2756,Mendoza,4416,4
+2757,Mar del Plata,5433,1
+2758,Mar del Plata,1354,1
+2759,Córdoba,1058,2
+2760,Mar del Plata,5417,1
+2761,Santa Fe,9808,3
+2762,La Plata,1348,1
+2763,Rafaela,1575,3
+2764,CABA,9310,1
+2765,La Plata,9388,1
+2766,Córdoba,1228,2
+2767,Mar del Plata,6719,1
+2768,Mar del Plata,7486,1
+2769,CABA,4811,1
+2770,Río Cuarto,1119,2
+2771,Rosario,5458,3
+2772,Córdoba,1974,2
+2773,Villa Carlos Paz,5539,2
+2774,Mendoza,3474,4
+2775,San Rafael,7114,4
+2776,Godoy Cruz,5342,4
+2777,CABA,1580,1
+2778,Mar del Plata,4524,1
+2779,CABA,1918,1
+2780,Rosario,7784,3
+2781,La Plata,1163,1
+2782,Mar del Plata,9108,1
+2783,Mar del Plata,8560,1
+2784,CABA,2788,1
+2785,La Plata,2238,1
+2786,CABA,5576,1
+2787,Santa Fe,8765,3
+2788,La Plata,4695,1
+2789,CABA,7509,1
+2790,CABA,3325,1
+2791,Villa Carlos Paz,1370,2
+2792,Villa Carlos Paz,3138,2
+2793,Mar del Plata,3194,1
+2794,San Rafael,2834,4
+2795,CABA,6237,1
+2796,Córdoba,5678,2
+2797,Santa Fe,3079,3
+2798,CABA,6111,1
+2799,Mar del Plata,2794,1
+2800,Mar del Plata,5927,1
+2801,Mar del Plata,4233,1
+2802,Godoy Cruz,5430,4
+2803,Mendoza,9647,4
+2804,La Plata,3755,1
+2805,Mendoza,1238,4
+2806,Mendoza,1337,4
+2807,La Plata,8429,1
+2808,Río Cuarto,2987,2
+2809,CABA,3494,1
+2810,La Plata,1732,1
+2811,Mar del Plata,9972,1
+2812,La Plata,1377,1
+2813,CABA,5002,1
+2814,CABA,7051,1
+2815,CABA,4098,1
+2816,Rafaela,6307,3
+2817,La Plata,5102,1
+2818,Río Cuarto,3429,2
+2819,Mar del Plata,3281,1
+2820,San Rafael,9410,4
+2821,Villa Carlos Paz,1551,2
+2822,CABA,3227,1
+2823,La Plata,4641,1
+2824,Mendoza,2551,4
+2825,San Rafael,7859,4
+2826,Río Cuarto,5699,2
+2827,CABA,4589,1
+2828,La Plata,4969,1
+2829,CABA,4285,1
+2830,Río Cuarto,3049,2
+2831,Villa Carlos Paz,9155,2
+2832,La Plata,7255,1
+2833,Godoy Cruz,4584,4
+2834,CABA,4876,1
+2835,Mar del Plata,3439,1
+2836,Mar del Plata,9761,1
+2837,La Plata,8517,1
+2838,CABA,6752,1
+2839,Mendoza,7697,4
+2840,La Plata,3615,1
+2841,Villa Carlos Paz,9360,2
+2842,La Plata,6131,1
+2843,Santa Fe,7199,3
+2844,CABA,5141,1
+2845,La Plata,5528,1
+2846,Córdoba,4204,2
+2847,Río Cuarto,8029,2
+2848,La Plata,2061,1
+2849,Mar del Plata,7638,1
+2850,Rosario,3977,3
+2851,La Plata,2347,1
+2852,CABA,6094,1
+2853,CABA,1866,1
+2854,CABA,1810,1
+2855,La Plata,8779,1
+2856,Mar del Plata,7798,1
+2857,Rosario,9312,3
+2858,Mar del Plata,6974,1
+2859,Córdoba,6532,2
+2860,CABA,9562,1
+2861,La Plata,8666,1
+2862,Mendoza,8700,4
+2863,CABA,5117,1
+2864,CABA,4714,1
+2865,La Plata,5698,1
+2866,Mar del Plata,9200,1
+2867,Mar del Plata,3211,1
+2868,Rosario,7298,3
+2869,Villa Carlos Paz,1326,2
+2870,Rafaela,5028,3
+2871,Córdoba,7661,2
+2872,Santa Fe,4564,3
+2873,Mar del Plata,4471,1
+2874,Córdoba,9247,2
+2875,CABA,2222,1
+2876,CABA,2167,1
+2877,La Plata,7623,1
+2878,Mar del Plata,2531,1
+2879,CABA,3547,1
+2880,Mar del Plata,5043,1
+2881,Mar del Plata,8357,1
+2882,CABA,9155,1
+2883,La Plata,8567,1
+2884,La Plata,8129,1
+2885,Santa Fe,6867,3
+2886,CABA,3007,1
+2887,La Plata,8883,1
+2888,La Plata,4042,1
+2889,CABA,3966,1
+2890,Mar del Plata,9652,1
+2891,Godoy Cruz,1748,4
+2892,La Plata,4389,1
+2893,CABA,8796,1
+2894,Villa Carlos Paz,9256,2
+2895,Villa Carlos Paz,4829,2
+2896,La Plata,6682,1
+2897,Río Cuarto,2373,2
+2898,Villa Carlos Paz,4143,2
+2899,CABA,9188,1
+2900,CABA,4952,1
+2901,CABA,8461,1
+2902,Mar del Plata,8899,1
+2903,CABA,7978,1
+2904,Mendoza,3582,4
+2905,La Plata,1530,1
+2906,CABA,3935,1
+2907,CABA,2567,1
+2908,La Plata,7919,1
+2909,CABA,2317,1
+2910,Godoy Cruz,1539,4
+2911,Córdoba,5158,2
+2912,CABA,8267,1
+2913,San Rafael,7515,4
+2914,CABA,2781,1
+2915,Córdoba,9081,2
+2916,CABA,4640,1
+2917,Villa Carlos Paz,8052,2
+2918,Mar del Plata,5976,1
+2919,San Rafael,1383,4
+2920,Río Cuarto,7859,2
+2921,Godoy Cruz,2692,4
+2922,Mendoza,2273,4
+2923,Santa Fe,5244,3
+2924,Córdoba,6709,2
+2925,CABA,2101,1
+2926,La Plata,4706,1
+2927,Mar del Plata,4410,1
+2928,Rosario,7457,3
+2929,Córdoba,9820,2
+2930,La Plata,8279,1
+2931,Santa Fe,1924,3
+2932,La Plata,8533,1
+2933,Villa Carlos Paz,3986,2
+2934,Río Cuarto,3169,2
+2935,CABA,4803,1
+2936,La Plata,9334,1
+2937,CABA,2973,1
+2938,Rosario,9733,3
+2939,CABA,2734,1
+2940,CABA,2541,1
+2941,CABA,5907,1
+2942,Córdoba,3288,2
+2943,CABA,3151,1
+2944,San Rafael,6264,4
+2945,Rafaela,9892,3
+2946,La Plata,4423,1
+2947,Rafaela,2560,3
+2948,Rosario,8099,3
+2949,Mar del Plata,9639,1
+2950,Mar del Plata,8828,1
+2951,CABA,7519,1
+2952,Mar del Plata,6224,1
+2953,Mar del Plata,3828,1
+2954,Rosario,7647,3
+2955,Santa Fe,4091,3
+2956,Rafaela,5025,3
+2957,Mar del Plata,1220,1
+2958,Mar del Plata,7529,1
+2959,La Plata,4181,1
+2960,La Plata,2226,1
+2961,Córdoba,4289,2
+2962,Córdoba,2422,2
+2963,CABA,8559,1
+2964,Villa Carlos Paz,7848,2
+2965,La Plata,9613,1
+2966,Mar del Plata,4274,1
+2967,La Plata,2823,1
+2968,Mendoza,5638,4
+2969,Godoy Cruz,7374,4
+2970,La Plata,3927,1
+2971,La Plata,1518,1
+2972,Rosario,1737,3
+2973,Rosario,9382,3
+2974,CABA,3825,1
+2975,Córdoba,8295,2
+2976,La Plata,5401,1
+2977,La Plata,8350,1
+2978,La Plata,7201,1
+2979,Mar del Plata,3833,1
+2980,Mar del Plata,1052,1
+2981,La Plata,3857,1
+2982,La Plata,1532,1
+2983,CABA,5992,1
+2984,Rafaela,4639,3
+2985,Mar del Plata,1839,1
+2986,Córdoba,7809,2
+2987,Santa Fe,7621,3
+2988,Mendoza,9510,4
+2989,Rafaela,3443,3
+2990,Mar del Plata,9470,1
+2991,Mar del Plata,1334,1
+2992,Godoy Cruz,1598,4
+2993,Villa Carlos Paz,4461,2
+2994,Mar del Plata,7628,1
+2995,Córdoba,7891,2
+2996,Santa Fe,1264,3
+2997,Mar del Plata,9231,1
+2998,Córdoba,4348,2
+2999,Córdoba,7550,2
+3000,Villa Carlos Paz,3261,2
+3001,Rafaela,2273,3
+3002,Rafaela,4374,3
+3003,Rosario,8775,3
+3004,San Rafael,9790,4
+3005,Mar del Plata,4343,1
+3006,La Plata,5299,1
+3007,La Plata,2427,1
+3008,Godoy Cruz,5624,4
+3009,Rafaela,3943,3
+3010,Río Cuarto,5234,2
+3011,La Plata,5019,1
+3012,Río Cuarto,7787,2
+3013,CABA,4633,1
+3014,Mar del Plata,7219,1
+3015,Rafaela,6383,3
+3016,La Plata,3557,1
+3017,Córdoba,9407,2
+3018,Mar del Plata,3461,1
+3019,La Plata,5901,1
+3020,CABA,4012,1
+3021,Córdoba,7930,2
+3022,Villa Carlos Paz,7421,2
+3023,CABA,2966,1
+3024,CABA,5597,1
+3025,Mar del Plata,5146,1
+3026,San Rafael,1179,4
+3027,Rafaela,4521,3
+3028,Río Cuarto,6967,2
+3029,Mar del Plata,1963,1
+3030,Río Cuarto,4969,2
+3031,Mar del Plata,4642,1
+3032,CABA,1266,1
+3033,Rafaela,2947,3
+3034,Rafaela,5529,3
+3035,CABA,7244,1
+3036,Rafaela,3119,3
+3037,Río Cuarto,1827,2
+3038,Mar del Plata,3110,1
+3039,La Plata,3898,1
+3040,Santa Fe,9981,3
+3041,Mar del Plata,9117,1
+3042,Villa Carlos Paz,5047,2
+3043,CABA,2567,1
+3044,Mar del Plata,3065,1
+3045,CABA,8641,1
+3046,Mar del Plata,1553,1
+3047,Río Cuarto,1273,2
+3048,Mar del Plata,3169,1
+3049,Río Cuarto,5868,2
+3050,Río Cuarto,3479,2
+3051,CABA,7989,1
+3052,Córdoba,3049,2
+3053,Mendoza,1070,4
+3054,La Plata,7692,1
+3055,Mar del Plata,3505,1
+3056,Rosario,5220,3
+3057,Villa Carlos Paz,8899,2
+3058,Rosario,9124,3
+3059,Córdoba,7865,2
+3060,Rafaela,2162,3
+3061,CABA,5886,1
+3062,Santa Fe,5438,3
+3063,La Plata,6164,1
+3064,Mendoza,2168,4
+3065,Río Cuarto,4914,2
+3066,Rafaela,7283,3
+3067,Mendoza,9337,4
+3068,Mar del Plata,6258,1
+3069,Mar del Plata,2916,1
+3070,La Plata,1185,1
+3071,Rosario,9840,3
+3072,Mendoza,3919,4
+3073,Rosario,3626,3
+3074,La Plata,1344,1
+3075,CABA,6536,1
+3076,Godoy Cruz,4337,4
+3077,La Plata,8674,1
+3078,CABA,8985,1
+3079,Mar del Plata,1672,1
+3080,Río Cuarto,4643,2
+3081,Mar del Plata,2576,1
+3082,Mar del Plata,3670,1
+3083,Mar del Plata,1529,1
+3084,San Rafael,4700,4
+3085,Villa Carlos Paz,5854,2
+3086,Córdoba,4222,2
+3087,CABA,6553,1
+3088,Villa Carlos Paz,7675,2
+3089,Mar del Plata,4802,1
+3090,La Plata,1269,1
+3091,Mar del Plata,9469,1
+3092,CABA,7484,1
+3093,CABA,8027,1
+3094,Rafaela,4544,3
+3095,Córdoba,3345,2
+3096,Mar del Plata,8537,1
+3097,Río Cuarto,4058,2
+3098,Mar del Plata,8593,1
+3099,Godoy Cruz,5478,4
+3100,La Plata,6396,1
+3101,CABA,9978,1
+3102,La Plata,6409,1
+3103,Mendoza,3447,4
+3104,La Plata,7224,1
+3105,La Plata,9876,1
+3106,CABA,7907,1
+3107,CABA,1445,1
+3108,CABA,2477,1
+3109,CABA,9627,1
+3110,Villa Carlos Paz,2229,2
+3111,La Plata,1927,1
+3112,San Rafael,8660,4
+3113,La Plata,9596,1
+3114,Mar del Plata,8039,1
+3115,CABA,9108,1
+3116,Río Cuarto,7131,2
+3117,CABA,8766,1
+3118,CABA,3686,1
+3119,Villa Carlos Paz,3353,2
+3120,Mar del Plata,5736,1
+3121,Mar del Plata,7468,1
+3122,Mar del Plata,8756,1
+3123,Río Cuarto,3305,2
+3124,Mar del Plata,5118,1
+3125,Mar del Plata,5806,1
+3126,La Plata,1148,1
+3127,La Plata,3078,1
+3128,La Plata,4305,1
+3129,Mendoza,5658,4
+3130,CABA,3101,1
+3131,La Plata,9294,1
+3132,Godoy Cruz,8257,4
+3133,La Plata,6489,1
+3134,Mar del Plata,2389,1
+3135,Río Cuarto,9127,2
+3136,Mar del Plata,8012,1
+3137,La Plata,1225,1
+3138,La Plata,7611,1
+3139,San Rafael,5378,4
+3140,Río Cuarto,8936,2
+3141,Río Cuarto,1563,2
+3142,Rosario,3341,3
+3143,Santa Fe,4644,3
+3144,Rosario,2709,3
+3145,Río Cuarto,1066,2
+3146,La Plata,3252,1
+3147,Rafaela,3647,3
+3148,La Plata,9411,1
+3149,CABA,1947,1
+3150,Villa Carlos Paz,7298,2
+3151,Mendoza,7566,4
+3152,Mar del Plata,1401,1
+3153,Mar del Plata,4158,1
+3154,CABA,2955,1
+3155,Rosario,7294,3
+3156,CABA,8366,1
+3157,La Plata,6283,1
+3158,Santa Fe,5174,3
+3159,CABA,6530,1
+3160,Santa Fe,6855,3
+3161,La Plata,3869,1
+3162,Santa Fe,5851,3
+3163,CABA,1278,1
+3164,Santa Fe,8415,3
+3165,Godoy Cruz,5387,4
+3166,San Rafael,6452,4
+3167,Mar del Plata,2133,1
+3168,Mar del Plata,8792,1
+3169,Rafaela,3504,3
+3170,CABA,9628,1
+3171,CABA,9063,1
+3172,Mendoza,5115,4
+3173,Rafaela,1017,3
+3174,Villa Carlos Paz,4821,2
+3175,Mar del Plata,1287,1
+3176,La Plata,8209,1
+3177,Mar del Plata,2862,1
+3178,La Plata,4300,1
+3179,Mar del Plata,9426,1
+3180,La Plata,3757,1
+3181,Mar del Plata,5586,1
+3182,La Plata,8265,1
+3183,Villa Carlos Paz,2416,2
+3184,Mar del Plata,5831,1
+3185,Santa Fe,9990,3
+3186,Mendoza,4605,4
+3187,Mar del Plata,3805,1
+3188,Mar del Plata,6183,1
+3189,Rafaela,1911,3
+3190,La Plata,2156,1
+3191,La Plata,9923,1
+3192,Córdoba,9424,2
+3193,CABA,5956,1
+3194,Mar del Plata,9282,1
+3195,Villa Carlos Paz,3548,2
+3196,Villa Carlos Paz,2782,2
+3197,Mar del Plata,2445,1
+3198,Rafaela,2610,3
+3199,Rosario,1600,3
+3200,Mar del Plata,3358,1
+3201,Córdoba,5977,2
+3202,Mendoza,6372,4
+3203,La Plata,6543,1
+3204,Córdoba,3798,2
+3205,La Plata,8208,1
+3206,Mar del Plata,9463,1
+3207,Villa Carlos Paz,9341,2
+3208,CABA,1842,1
+3209,Rosario,9777,3
+3210,Mar del Plata,1613,1
+3211,Santa Fe,4803,3
+3212,Rafaela,5315,3
+3213,San Rafael,8000,4
+3214,Rosario,8860,3
+3215,Rafaela,6997,3
+3216,Córdoba,8195,2
+3217,La Plata,3239,1
+3218,Santa Fe,3681,3
+3219,La Plata,2130,1
+3220,Mar del Plata,7374,1
+3221,Mendoza,5171,4
+3222,CABA,9925,1
+3223,Río Cuarto,7958,2
+3224,La Plata,9415,1
+3225,Mar del Plata,4734,1
+3226,Rafaela,5180,3
+3227,La Plata,3054,1
+3228,Mar del Plata,7959,1
+3229,San Rafael,4066,4
+3230,Córdoba,3017,2
+3231,Godoy Cruz,6135,4
+3232,Godoy Cruz,3189,4
+3233,Mar del Plata,8171,1
+3234,Villa Carlos Paz,2536,2
+3235,Rafaela,5523,3
+3236,La Plata,5019,1
+3237,La Plata,3295,1
+3238,Rosario,3101,3
+3239,Mar del Plata,6486,1
+3240,Córdoba,7154,2
+3241,Santa Fe,9971,3
+3242,CABA,5441,1
+3243,Godoy Cruz,3958,4
+3244,Mendoza,4951,4
+3245,La Plata,7124,1
+3246,CABA,5271,1
+3247,La Plata,3195,1
+3248,Mar del Plata,9119,1
+3249,Mar del Plata,9225,1
+3250,Mar del Plata,6112,1
+3251,Villa Carlos Paz,8096,2
+3252,CABA,9991,1
+3253,Mar del Plata,7934,1
+3254,La Plata,3339,1
+3255,Rafaela,7099,3
+3256,Mar del Plata,1864,1
+3257,CABA,1309,1
+3258,Mendoza,2570,4
+3259,Rosario,2689,3
+3260,La Plata,2563,1
+3261,CABA,3109,1
+3262,Santa Fe,3137,3
+3263,Córdoba,2566,2
+3264,Rosario,4425,3
+3265,Córdoba,3974,2
+3266,CABA,6497,1
+3267,Villa Carlos Paz,9201,2
+3268,La Plata,3838,1
+3269,Villa Carlos Paz,1893,2
+3270,La Plata,6906,1
+3271,Córdoba,3909,2
+3272,Godoy Cruz,5382,4
+3273,Santa Fe,7824,3
+3274,La Plata,7624,1
+3275,La Plata,4822,1
+3276,Mar del Plata,5093,1
+3277,Mar del Plata,5879,1
+3278,CABA,4219,1
+3279,Godoy Cruz,7730,4
+3280,Mar del Plata,7765,1
+3281,Mar del Plata,4872,1
+3282,Rosario,9193,3
+3283,Mar del Plata,1478,1
+3284,CABA,8725,1
+3285,Rosario,8896,3
+3286,Mendoza,4407,4
+3287,CABA,8242,1
+3288,Mar del Plata,7366,1
+3289,La Plata,8536,1
+3290,Río Cuarto,4526,2
+3291,Santa Fe,3974,3
+3292,Villa Carlos Paz,7717,2
+3293,Mendoza,4579,4
+3294,CABA,3782,1
+3295,Rafaela,5458,3
+3296,Rosario,5454,3
+3297,Mar del Plata,5483,1
+3298,Santa Fe,2451,3
+3299,Godoy Cruz,2210,4
+3300,Mendoza,2360,4
+3301,La Plata,7832,1
+3302,Mar del Plata,5037,1
+3303,CABA,5953,1
+3304,CABA,2223,1
+3305,La Plata,2633,1
+3306,Godoy Cruz,2620,4
+3307,Rosario,6069,3
+3308,Godoy Cruz,9532,4
+3309,Rosario,9742,3
+3310,Santa Fe,4491,3
+3311,Mar del Plata,8023,1
+3312,Córdoba,5942,2
+3313,Villa Carlos Paz,5087,2
+3314,La Plata,2350,1
+3315,CABA,4039,1
+3316,Mar del Plata,6294,1
+3317,Santa Fe,6952,3
+3318,CABA,9529,1
+3319,Godoy Cruz,9301,4
+3320,Mendoza,8089,4
+3321,Mar del Plata,9271,1
+3322,Rosario,8465,3
+3323,CABA,5243,1
+3324,Santa Fe,5817,3
+3325,CABA,3949,1
+3326,Mar del Plata,1056,1
+3327,Mar del Plata,8960,1
+3328,CABA,9216,1
+3329,Mar del Plata,3426,1
+3330,CABA,8717,1
+3331,Rafaela,1523,3
+3332,CABA,4738,1
+3333,Rosario,6151,3
+3334,La Plata,1125,1
+3335,Mar del Plata,8608,1
+3336,CABA,5916,1
+3337,Río Cuarto,6454,2
+3338,Rafaela,8692,3
+3339,La Plata,1596,1
+3340,Mar del Plata,7316,1
+3341,Santa Fe,4724,3
+3342,Córdoba,5105,2
+3343,Santa Fe,6438,3
+3344,La Plata,1341,1
+3345,Rosario,8043,3
+3346,Villa Carlos Paz,1242,2
+3347,CABA,4941,1
+3348,La Plata,7538,1
+3349,La Plata,5896,1
+3350,La Plata,4185,1
+3351,Río Cuarto,5845,2
+3352,La Plata,4017,1
+3353,Villa Carlos Paz,1522,2
+3354,Mar del Plata,6603,1
+3355,Godoy Cruz,6166,4
+3356,Mar del Plata,7206,1
+3357,CABA,4488,1
+3358,Río Cuarto,6879,2
+3359,Mendoza,9607,4
+3360,La Plata,7427,1
+3361,San Rafael,2625,4
+3362,CABA,5948,1
+3363,Mar del Plata,3885,1
+3364,CABA,3067,1
+3365,Rosario,9193,3
+3366,La Plata,7848,1
+3367,Córdoba,4467,2
+3368,Villa Carlos Paz,1033,2
+3369,Córdoba,2629,2
+3370,La Plata,9064,1
+3371,La Plata,8364,1
+3372,La Plata,4839,1
+3373,San Rafael,5667,4
+3374,La Plata,2937,1
+3375,Godoy Cruz,2315,4
+3376,Godoy Cruz,1957,4
+3377,La Plata,3623,1
+3378,Mar del Plata,7664,1
+3379,Rafaela,2134,3
+3380,Mar del Plata,7330,1
+3381,Córdoba,4250,2
+3382,La Plata,7202,1
+3383,Río Cuarto,9158,2
+3384,CABA,1656,1
+3385,Mendoza,4986,4
+3386,La Plata,7225,1
+3387,La Plata,9042,1
+3388,Mar del Plata,6584,1
+3389,Mendoza,1496,4
+3390,Rosario,8062,3
+3391,Rosario,3999,3
+3392,La Plata,7426,1
+3393,Godoy Cruz,9377,4
+3394,Córdoba,7022,2
+3395,La Plata,3123,1
+3396,Mar del Plata,7909,1
+3397,Santa Fe,6235,3
+3398,Río Cuarto,3268,2
+3399,CABA,1071,1
+3400,CABA,5700,1
+3401,San Rafael,2904,4
+3402,Mar del Plata,4771,1
+3403,La Plata,4981,1
+3404,Mar del Plata,6188,1
+3405,Villa Carlos Paz,1192,2
+3406,Mar del Plata,4284,1
+3407,CABA,9247,1
+3408,La Plata,7928,1
+3409,Villa Carlos Paz,9171,2
+3410,Villa Carlos Paz,5686,2
+3411,Rafaela,7869,3
+3412,Córdoba,7055,2
+3413,Mendoza,2268,4
+3414,Santa Fe,9693,3
+3415,CABA,5683,1
+3416,Córdoba,2046,2
+3417,Mar del Plata,6409,1
+3418,Mar del Plata,8820,1
+3419,La Plata,1196,1
+3420,San Rafael,2802,4
+3421,Santa Fe,1609,3
+3422,Rafaela,8925,3
+3423,CABA,9476,1
+3424,Mar del Plata,6836,1
+3425,CABA,1682,1
+3426,Santa Fe,5187,3
+3427,Córdoba,8204,2
+3428,CABA,5625,1
+3429,Mar del Plata,6491,1
+3430,Mar del Plata,8008,1
+3431,CABA,9444,1
+3432,La Plata,4636,1
+3433,Mar del Plata,3696,1
+3434,Mar del Plata,4908,1
+3435,Santa Fe,3049,3
+3436,Córdoba,8784,2
+3437,Mar del Plata,3297,1
+3438,Mar del Plata,4250,1
+3439,Rosario,2199,3
+3440,Rafaela,5755,3
+3441,Mar del Plata,8324,1
+3442,Mar del Plata,2774,1
+3443,Mar del Plata,8458,1
+3444,Mar del Plata,9585,1
+3445,La Plata,3495,1
+3446,Godoy Cruz,4215,4
+3447,Río Cuarto,5233,2
+3448,San Rafael,5661,4
+3449,Villa Carlos Paz,2872,2
+3450,Godoy Cruz,1718,4
+3451,CABA,3204,1
+3452,Mar del Plata,6509,1
+3453,Rosario,6868,3
+3454,Rafaela,8733,3
+3455,Santa Fe,7346,3
+3456,Córdoba,9107,2
+3457,Santa Fe,6085,3
+3458,La Plata,3105,1
+3459,CABA,1813,1
+3460,Mar del Plata,1394,1
+3461,Santa Fe,7564,3
+3462,Río Cuarto,4556,2
+3463,Córdoba,1617,2
+3464,Mar del Plata,9536,1
+3465,Villa Carlos Paz,6503,2
+3466,Mar del Plata,4770,1
+3467,San Rafael,7958,4
+3468,La Plata,9386,1
+3469,CABA,5965,1
+3470,Santa Fe,2206,3
+3471,La Plata,1137,1
+3472,CABA,3285,1
+3473,Córdoba,4813,2
+3474,San Rafael,7644,4
+3475,Mar del Plata,7522,1
+3476,Río Cuarto,9925,2
+3477,San Rafael,3645,4
+3478,Mendoza,8082,4
+3479,Mar del Plata,8332,1
+3480,La Plata,8598,1
+3481,Córdoba,3221,2
+3482,La Plata,6287,1
+3483,CABA,9719,1
+3484,CABA,7349,1
+3485,Mar del Plata,6775,1
+3486,CABA,2870,1
+3487,CABA,1071,1
+3488,Mar del Plata,6727,1
+3489,San Rafael,4214,4
+3490,Mar del Plata,2045,1
+3491,Mar del Plata,1376,1
+3492,Río Cuarto,4720,2
+3493,CABA,7298,1
+3494,Rosario,3229,3
+3495,Santa Fe,6955,3
+3496,Mar del Plata,9107,1
+3497,Santa Fe,7684,3
+3498,Mar del Plata,6929,1
+3499,La Plata,5598,1
+3500,Río Cuarto,9423,2
+3501,Villa Carlos Paz,6786,2
+3502,San Rafael,8113,4
+3503,Rafaela,8548,3
+3504,La Plata,4992,1
+3505,Rafaela,5125,3
+3506,Mar del Plata,9774,1
+3507,Mar del Plata,1522,1
+3508,La Plata,1837,1
+3509,CABA,8658,1
+3510,Mar del Plata,5417,1
+3511,Río Cuarto,2039,2
+3512,Mar del Plata,3173,1
+3513,La Plata,6106,1
+3514,CABA,4809,1
+3515,Rafaela,2829,3
+3516,La Plata,7571,1
+3517,La Plata,7230,1
+3518,Santa Fe,9124,3
+3519,Mar del Plata,2314,1
+3520,Villa Carlos Paz,4803,2
+3521,La Plata,4603,1
+3522,Villa Carlos Paz,7811,2
+3523,La Plata,2423,1
+3524,Santa Fe,7969,3
+3525,Rosario,9613,3
+3526,Mar del Plata,1970,1
+3527,Córdoba,4848,2
+3528,Godoy Cruz,1532,4
+3529,Río Cuarto,8220,2
+3530,Córdoba,9700,2
+3531,CABA,5780,1
+3532,La Plata,7000,1
+3533,Rosario,2754,3
+3534,La Plata,8644,1
+3535,Córdoba,1397,2
+3536,Córdoba,5901,2
+3537,Mar del Plata,3568,1
+3538,Mar del Plata,3409,1
+3539,Godoy Cruz,2052,4
+3540,CABA,2366,1
+3541,Villa Carlos Paz,2604,2
+3542,Mar del Plata,8544,1
+3543,Rosario,8984,3
+3544,La Plata,7113,1
+3545,La Plata,1096,1
+3546,Santa Fe,1560,3
+3547,Villa Carlos Paz,9241,2
+3548,La Plata,5459,1
+3549,Río Cuarto,6701,2
+3550,Río Cuarto,1731,2
+3551,Rafaela,1794,3
+3552,CABA,9937,1
+3553,CABA,6925,1
+3554,Mar del Plata,7336,1
+3555,Mar del Plata,4892,1
+3556,Río Cuarto,5022,2
+3557,Villa Carlos Paz,8964,2
+3558,CABA,2323,1
+3559,Córdoba,2870,2
+3560,Mar del Plata,2707,1
+3561,CABA,2318,1
+3562,Santa Fe,8743,3
+3563,Villa Carlos Paz,8430,2
+3564,CABA,9208,1
+3565,CABA,7566,1
+3566,La Plata,1413,1
+3567,CABA,5693,1
+3568,CABA,7238,1
+3569,La Plata,4355,1
+3570,Mar del Plata,2585,1
+3571,Mar del Plata,9378,1
+3572,La Plata,7810,1
+3573,La Plata,9364,1
+3574,Mendoza,1048,4
+3575,CABA,7579,1
+3576,Córdoba,2861,2
+3577,CABA,5590,1
+3578,La Plata,2543,1
+3579,CABA,8861,1
+3580,CABA,7561,1
+3581,Santa Fe,8816,3
+3582,Villa Carlos Paz,3208,2
+3583,CABA,7840,1
+3584,CABA,1154,1
+3585,CABA,7683,1
+3586,Rosario,8350,3
+3587,Villa Carlos Paz,7725,2
+3588,Mar del Plata,9610,1
+3589,CABA,9185,1
+3590,La Plata,2882,1
+3591,Mar del Plata,2259,1
+3592,Río Cuarto,1743,2
+3593,Córdoba,6853,2
+3594,La Plata,4840,1
+3595,Rosario,3525,3
+3596,Godoy Cruz,4018,4
+3597,Córdoba,2741,2
+3598,Villa Carlos Paz,4821,2
+3599,CABA,6215,1
+3600,La Plata,1142,1
+3601,Río Cuarto,6011,2
+3602,Rafaela,1526,3
+3603,San Rafael,8551,4
+3604,Córdoba,7561,2
+3605,CABA,8025,1
+3606,Mar del Plata,5812,1
+3607,Córdoba,3797,2
+3608,Mar del Plata,7746,1
+3609,CABA,2542,1
+3610,La Plata,5435,1
+3611,Río Cuarto,5008,2
+3612,Mar del Plata,2488,1
+3613,Río Cuarto,7824,2
+3614,Mar del Plata,6759,1
+3615,Río Cuarto,6241,2
+3616,Rosario,9332,3
+3617,CABA,6215,1
+3618,La Plata,1577,1
+3619,La Plata,3838,1
+3620,Córdoba,5096,2
+3621,Rafaela,4776,3
+3622,Mar del Plata,7957,1
+3623,CABA,5913,1
+3624,CABA,7077,1
+3625,San Rafael,1610,4
+3626,La Plata,3893,1
+3627,Mendoza,8368,4
+3628,CABA,5456,1
+3629,Rosario,5642,3
+3630,Mar del Plata,1734,1
+3631,Mar del Plata,6574,1
+3632,Mar del Plata,7585,1
+3633,La Plata,8487,1
+3634,CABA,8098,1
+3635,La Plata,4520,1
+3636,Mar del Plata,8871,1
+3637,Mar del Plata,2254,1
+3638,Villa Carlos Paz,9051,2
+3639,Mar del Plata,7028,1
+3640,Villa Carlos Paz,6490,2
+3641,Mar del Plata,6093,1
+3642,Mar del Plata,2181,1
+3643,Rafaela,3037,3
+3644,Mendoza,9829,4
+3645,Santa Fe,5929,3
+3646,Mendoza,5005,4
+3647,Rosario,4616,3
+3648,Córdoba,9999,2
+3649,Córdoba,3415,2
+3650,Mar del Plata,7345,1
+3651,CABA,5157,1
+3652,Córdoba,5007,2
+3653,CABA,8204,1
+3654,Mar del Plata,8315,1
+3655,La Plata,7774,1
+3656,La Plata,9346,1
+3657,San Rafael,7133,4
+3658,Río Cuarto,3266,2
+3659,Santa Fe,8802,3
+3660,Mar del Plata,3462,1
+3661,Godoy Cruz,6048,4
+3662,La Plata,4402,1
+3663,Mar del Plata,5550,1
+3664,Santa Fe,4967,3
+3665,Villa Carlos Paz,6987,2
+3666,CABA,8042,1
+3667,Río Cuarto,1473,2
+3668,Mar del Plata,7904,1
+3669,Mar del Plata,6150,1
+3670,CABA,5533,1
+3671,La Plata,2523,1
+3672,Río Cuarto,5598,2
+3673,Villa Carlos Paz,9971,2
+3674,Córdoba,7621,2
+3675,San Rafael,5525,4
+3676,Río Cuarto,4046,2
+3677,La Plata,4964,1
+3678,CABA,2101,1
+3679,Rafaela,8938,3
+3680,CABA,5150,1
+3681,Río Cuarto,5902,2
+3682,Rosario,5620,3
+3683,Mar del Plata,4697,1
+3684,San Rafael,8849,4
+3685,CABA,1141,1
+3686,La Plata,9757,1
+3687,Mar del Plata,2948,1
+3688,Villa Carlos Paz,9560,2
+3689,Río Cuarto,6411,2
+3690,Rosario,4524,3
+3691,CABA,9974,1
+3692,Córdoba,4097,2
+3693,Mar del Plata,7061,1
+3694,Córdoba,3840,2
+3695,CABA,2427,1
+3696,Córdoba,6838,2
+3697,CABA,4109,1
+3698,Santa Fe,2635,3
+3699,Río Cuarto,6125,2
+3700,Mar del Plata,6333,1
+3701,Mar del Plata,3316,1
+3702,San Rafael,7831,4
+3703,Río Cuarto,7265,2
+3704,Córdoba,3622,2
+3705,Mar del Plata,7838,1
+3706,Mendoza,7588,4
+3707,Villa Carlos Paz,9668,2
+3708,Villa Carlos Paz,1182,2
+3709,Córdoba,8468,2
+3710,Córdoba,5379,2
+3711,La Plata,3000,1
+3712,Córdoba,6426,2
+3713,Rafaela,1261,3
+3714,Mar del Plata,1209,1
+3715,Santa Fe,6588,3
+3716,Córdoba,8137,2
+3717,Godoy Cruz,6394,4
+3718,CABA,9697,1
+3719,Godoy Cruz,2213,4
+3720,CABA,1377,1
+3721,San Rafael,5578,4
+3722,Santa Fe,4511,3
+3723,La Plata,9536,1
+3724,Río Cuarto,6046,2
+3725,Córdoba,6925,2
+3726,CABA,2523,1
+3727,Mar del Plata,3065,1
+3728,Mar del Plata,9662,1
+3729,Santa Fe,3732,3
+3730,Rafaela,9610,3
+3731,Córdoba,5021,2
+3732,La Plata,9768,1
+3733,Villa Carlos Paz,9231,2
+3734,Villa Carlos Paz,8858,2
+3735,Río Cuarto,3401,2
+3736,Mar del Plata,6646,1
+3737,Córdoba,5498,2
+3738,Villa Carlos Paz,9627,2
+3739,Córdoba,2930,2
+3740,La Plata,6826,1
+3741,La Plata,8218,1
+3742,Córdoba,6750,2
+3743,Rosario,2406,3
+3744,Río Cuarto,3068,2
+3745,Mar del Plata,8857,1
+3746,CABA,8141,1
+3747,San Rafael,4342,4
+3748,San Rafael,8186,4
+3749,Mar del Plata,2709,1
+3750,La Plata,3527,1
+3751,La Plata,3257,1
+3752,Mar del Plata,5897,1
+3753,Mar del Plata,7697,1
+3754,Río Cuarto,3796,2
+3755,Santa Fe,5028,3
+3756,Villa Carlos Paz,2463,2
+3757,La Plata,7515,1
+3758,Villa Carlos Paz,8304,2
+3759,Córdoba,9271,2
+3760,La Plata,5897,1
+3761,Rafaela,8036,3
+3762,Córdoba,8796,2
+3763,La Plata,8887,1
+3764,La Plata,6012,1
+3765,Godoy Cruz,2668,4
+3766,Rafaela,5352,3
+3767,Mar del Plata,4448,1
+3768,Villa Carlos Paz,2798,2
+3769,San Rafael,5714,4
+3770,CABA,3187,1
+3771,La Plata,5170,1
+3772,La Plata,9748,1
+3773,Santa Fe,3484,3
+3774,Rafaela,6636,3
+3775,Villa Carlos Paz,7697,2
+3776,Mar del Plata,4168,1
+3777,CABA,1298,1
+3778,La Plata,5169,1
+3779,Villa Carlos Paz,6232,2
+3780,San Rafael,7593,4
+3781,CABA,1316,1
+3782,Mar del Plata,8181,1
+3783,Godoy Cruz,9009,4
+3784,Mar del Plata,2603,1
+3785,Mendoza,7950,4
+3786,CABA,4934,1
+3787,Santa Fe,9012,3
+3788,CABA,2398,1
+3789,La Plata,2219,1
+3790,Mar del Plata,6075,1
+3791,Mar del Plata,8235,1
+3792,Godoy Cruz,1844,4
+3793,Córdoba,3512,2
+3794,Rafaela,4887,3
+3795,Santa Fe,8031,3
+3796,CABA,5322,1
+3797,CABA,9954,1
+3798,Rafaela,5327,3
+3799,La Plata,5590,1
+3800,Mendoza,2398,4
+3801,La Plata,3365,1
+3802,Mar del Plata,8283,1
+3803,CABA,5262,1
+3804,Córdoba,4249,2
+3805,CABA,3768,1
+3806,La Plata,7469,1
+3807,La Plata,7910,1
+3808,Mar del Plata,7114,1
+3809,Mar del Plata,4039,1
+3810,CABA,1808,1
+3811,La Plata,3651,1
+3812,Rafaela,8655,3
+3813,Mar del Plata,4779,1
+3814,La Plata,1253,1
+3815,La Plata,1869,1
+3816,Río Cuarto,4077,2
+3817,Mendoza,8575,4
+3818,La Plata,7520,1
+3819,Santa Fe,3854,3
+3820,Mar del Plata,7010,1
+3821,CABA,9933,1
+3822,Santa Fe,1069,3
+3823,CABA,6538,1
+3824,CABA,2335,1
+3825,CABA,2421,1
+3826,Mar del Plata,4613,1
+3827,Rafaela,2334,3
+3828,Córdoba,1933,2
+3829,La Plata,7425,1
+3830,CABA,4916,1
+3831,La Plata,8495,1
+3832,Santa Fe,4677,3
+3833,Mar del Plata,2311,1
+3834,Rosario,7884,3
+3835,La Plata,5951,1
+3836,Mar del Plata,4558,1
+3837,La Plata,3657,1
+3838,Mar del Plata,8820,1
+3839,Rosario,7425,3
+3840,Santa Fe,7853,3
+3841,Mar del Plata,7347,1
+3842,La Plata,1170,1
+3843,Mar del Plata,1186,1
+3844,Mar del Plata,2108,1
+3845,La Plata,8220,1
+3846,La Plata,7656,1
+3847,La Plata,2142,1
+3848,La Plata,7872,1
+3849,CABA,5709,1
+3850,CABA,4764,1
+3851,CABA,5236,1
+3852,Córdoba,4124,2
+3853,La Plata,2480,1
+3854,CABA,7267,1
+3855,Mar del Plata,6581,1
+3856,Mar del Plata,6932,1
+3857,Mendoza,8275,4
+3858,Santa Fe,8858,3
+3859,Santa Fe,9918,3
+3860,CABA,3765,1
+3861,CABA,7574,1
+3862,San Rafael,9593,4
+3863,Mar del Plata,5122,1
+3864,Rafaela,8764,3
+3865,CABA,3994,1
+3866,Córdoba,2287,2
+3867,La Plata,3458,1
+3868,CABA,6912,1
+3869,La Plata,3252,1
+3870,La Plata,6235,1
+3871,Santa Fe,5142,3
+3872,CABA,8885,1
+3873,Godoy Cruz,4304,4
+3874,Villa Carlos Paz,4541,2
+3875,Mar del Plata,5253,1
+3876,Mar del Plata,8953,1
+3877,Mar del Plata,8541,1
+3878,CABA,8919,1
+3879,CABA,1757,1
+3880,Rosario,3069,3
+3881,CABA,4239,1
+3882,Río Cuarto,9774,2
+3883,Mendoza,2364,4
+3884,Córdoba,2813,2
+3885,Godoy Cruz,3596,4
+3886,Mar del Plata,2148,1
+3887,Mar del Plata,8114,1
+3888,La Plata,4236,1
+3889,Rafaela,7166,3
+3890,La Plata,9495,1
+3891,Rafaela,9748,3
+3892,Córdoba,1828,2
+3893,Río Cuarto,7864,2
+3894,La Plata,7643,1
+3895,Río Cuarto,3519,2
+3896,Mar del Plata,5397,1
+3897,San Rafael,2781,4
+3898,Rosario,5237,3
+3899,Godoy Cruz,2077,4
+3900,Mar del Plata,8346,1
+3901,Mar del Plata,7836,1
+3902,Godoy Cruz,1325,4
+3903,CABA,7597,1
+3904,Mar del Plata,1621,1
+3905,La Plata,5933,1
+3906,La Plata,6211,1
+3907,Córdoba,3047,2
+3908,Río Cuarto,8092,2
+3909,Godoy Cruz,6009,4
+3910,Villa Carlos Paz,4473,2
+3911,Rafaela,4644,3
+3912,CABA,1322,1
+3913,La Plata,1826,1
+3914,Godoy Cruz,5802,4
+3915,Mendoza,8514,4
+3916,CABA,7549,1
+3917,CABA,2470,1
+3918,Godoy Cruz,1857,4
+3919,Mar del Plata,2166,1
+3920,Córdoba,6255,2
+3921,CABA,5087,1
+3922,Godoy Cruz,5160,4
+3923,Villa Carlos Paz,6145,2
+3924,CABA,9436,1
+3925,Godoy Cruz,7725,4
+3926,Rosario,4890,3
+3927,CABA,1680,1
+3928,La Plata,9207,1
+3929,Villa Carlos Paz,6014,2
+3930,Río Cuarto,1621,2
+3931,La Plata,4547,1
+3932,Mar del Plata,9813,1
+3933,La Plata,7678,1
+3934,Mar del Plata,7888,1
+3935,San Rafael,6473,4
+3936,Rafaela,9585,3
+3937,CABA,5757,1
+3938,CABA,5632,1
+3939,CABA,7559,1
+3940,San Rafael,2691,4
+3941,La Plata,8560,1
+3942,La Plata,7208,1
+3943,La Plata,9051,1
+3944,La Plata,6987,1
+3945,La Plata,8190,1
+3946,Córdoba,6726,2
+3947,Santa Fe,8695,3
+3948,CABA,7201,1
+3949,Villa Carlos Paz,2765,2
+3950,La Plata,5302,1
+3951,La Plata,1947,1
+3952,CABA,4420,1
+3953,La Plata,3213,1
+3954,La Plata,5075,1
+3955,Mar del Plata,5768,1
+3956,Mar del Plata,9056,1
+3957,Mar del Plata,5447,1
+3958,Rosario,6885,3
+3959,La Plata,8411,1
+3960,Córdoba,1612,2
+3961,La Plata,8399,1
+3962,CABA,5299,1
+3963,San Rafael,2137,4
+3964,CABA,3082,1
+3965,La Plata,7252,1
+3966,La Plata,5617,1
+3967,CABA,5113,1
+3968,La Plata,8561,1
+3969,La Plata,2800,1
+3970,CABA,5318,1
+3971,Córdoba,2397,2
+3972,CABA,2670,1
+3973,Villa Carlos Paz,7704,2
+3974,Córdoba,5289,2
+3975,CABA,2696,1
+3976,La Plata,3565,1
+3977,Villa Carlos Paz,6108,2
+3978,La Plata,1782,1
+3979,La Plata,2133,1
+3980,La Plata,8762,1
+3981,Mendoza,5403,4
+3982,La Plata,5350,1
+3983,Río Cuarto,5045,2
+3984,Villa Carlos Paz,5922,2
+3985,La Plata,8387,1
+3986,CABA,7497,1
+3987,CABA,6444,1
+3988,CABA,1613,1
+3989,Mendoza,9536,4
+3990,La Plata,9335,1
+3991,La Plata,2745,1
+3992,Godoy Cruz,8967,4
+3993,Villa Carlos Paz,4309,2
+3994,CABA,7932,1
+3995,Godoy Cruz,5695,4
+3996,La Plata,5576,1
+3997,Mar del Plata,6610,1
+3998,Mendoza,4458,4
+3999,CABA,7303,1
+4000,Mendoza,8477,4
+4001,La Plata,3535,1
+4002,Mar del Plata,9618,1
+4003,Rafaela,7357,3
+4004,CABA,5480,1
+4005,Santa Fe,8052,3
+4006,Mar del Plata,8577,1
+4007,Mar del Plata,1401,1
+4008,Río Cuarto,5308,2
+4009,CABA,1255,1
+4010,San Rafael,4781,4
+4011,CABA,7513,1
+4012,CABA,1390,1
+4013,CABA,2820,1
+4014,La Plata,8531,1
+4015,Villa Carlos Paz,4784,2
+4016,Mar del Plata,9697,1
+4017,Villa Carlos Paz,8832,2
+4018,CABA,9670,1
+4019,La Plata,6193,1
+4020,CABA,3288,1
+4021,CABA,2991,1
+4022,Mar del Plata,7774,1
+4023,Rafaela,9302,3
+4024,Mar del Plata,8576,1
+4025,CABA,4737,1
+4026,Mendoza,8441,4
+4027,Mar del Plata,6257,1
+4028,Godoy Cruz,5229,4
+4029,Villa Carlos Paz,9882,2
+4030,CABA,1759,1
+4031,Mar del Plata,8846,1
+4032,Santa Fe,7367,3
+4033,Rafaela,6838,3
+4034,Córdoba,3757,2
+4035,Mar del Plata,4544,1
+4036,Mar del Plata,3870,1
+4037,Mar del Plata,4725,1
+4038,San Rafael,6174,4
+4039,Mar del Plata,5414,1
+4040,La Plata,4578,1
+4041,La Plata,2705,1
+4042,Mar del Plata,4407,1
+4043,Rafaela,1525,3
+4044,Río Cuarto,9376,2
+4045,CABA,2363,1
+4046,Córdoba,3446,2
+4047,CABA,1368,1
+4048,Mar del Plata,8157,1
+4049,Mar del Plata,6345,1
+4050,Mar del Plata,1319,1
+4051,Mendoza,9810,4
+4052,Córdoba,1210,2
+4053,La Plata,1627,1
+4054,Río Cuarto,5451,2
+4055,Rafaela,4353,3
+4056,San Rafael,7808,4
+4057,La Plata,6006,1
+4058,CABA,2053,1
+4059,La Plata,1070,1
+4060,Villa Carlos Paz,2635,2
+4061,Córdoba,7764,2
+4062,Mar del Plata,6876,1
+4063,CABA,2617,1
+4064,CABA,3664,1
+4065,Río Cuarto,8471,2
+4066,Córdoba,6014,2
+4067,Mendoza,6965,4
+4068,Rosario,6232,3
+4069,Córdoba,7584,2
+4070,La Plata,4898,1
+4071,La Plata,2928,1
+4072,La Plata,7028,1
+4073,Godoy Cruz,6340,4
+4074,Villa Carlos Paz,2752,2
+4075,Rafaela,6428,3
+4076,CABA,2437,1
+4077,Mar del Plata,1638,1
+4078,Rafaela,4300,3
+4079,Río Cuarto,5461,2
+4080,Mar del Plata,1115,1
+4081,CABA,3074,1
+4082,La Plata,9533,1
+4083,Río Cuarto,9390,2
+4084,CABA,7486,1
+4085,Mar del Plata,4886,1
+4086,Río Cuarto,5533,2
+4087,Mar del Plata,1708,1
+4088,CABA,5666,1
+4089,La Plata,1507,1
+4090,Mar del Plata,1887,1
+4091,Rafaela,8380,3
+4092,Rafaela,7199,3
+4093,CABA,4449,1
+4094,San Rafael,7355,4
+4095,Rafaela,1042,3
+4096,CABA,4125,1
+4097,Río Cuarto,4098,2
+4098,Río Cuarto,1708,2
+4099,CABA,8513,1
+4100,Mar del Plata,3553,1
+4101,Córdoba,5388,2
+4102,La Plata,4981,1
+4103,La Plata,1670,1
+4104,La Plata,5349,1
+4105,Villa Carlos Paz,5084,2
+4106,Mendoza,7856,4
+4107,Mar del Plata,3448,1
+4108,Río Cuarto,5641,2
+4109,Villa Carlos Paz,7078,2
+4110,La Plata,7682,1
+4111,Villa Carlos Paz,9829,2
+4112,Mendoza,7716,4
+4113,Río Cuarto,1579,2
+4114,Mar del Plata,3328,1
+4115,Rafaela,3452,3
+4116,Villa Carlos Paz,2706,2
+4117,Rosario,2099,3
+4118,Córdoba,5142,2
+4119,Villa Carlos Paz,2876,2
+4120,CABA,4788,1
+4121,Córdoba,2842,2
+4122,Rosario,3839,3
+4123,CABA,8590,1
+4124,Córdoba,6310,2
+4125,Río Cuarto,2018,2
+4126,CABA,2296,1
+4127,Mar del Plata,7815,1
+4128,Mar del Plata,9045,1
+4129,Mar del Plata,5346,1
+4130,Mar del Plata,8553,1
+4131,La Plata,1230,1
+4132,Mar del Plata,8840,1
+4133,CABA,3509,1
+4134,La Plata,9399,1
+4135,Rafaela,5213,3
+4136,CABA,9453,1
+4137,La Plata,4297,1
+4138,Río Cuarto,7024,2
+4139,Mar del Plata,5300,1
+4140,Villa Carlos Paz,2363,2
+4141,Rosario,1323,3
+4142,Mar del Plata,8960,1
+4143,CABA,1898,1
+4144,Rosario,9977,3
+4145,Río Cuarto,5811,2
+4146,CABA,1008,1
+4147,Córdoba,1460,2
+4148,CABA,8758,1
+4149,Río Cuarto,1536,2
+4150,Mar del Plata,8755,1
+4151,Río Cuarto,6264,2
+4152,Villa Carlos Paz,5225,2
+4153,CABA,4460,1
+4154,Mar del Plata,8513,1
+4155,Santa Fe,7214,3
+4156,Mar del Plata,6627,1
+4157,Santa Fe,6950,3
+4158,Mar del Plata,5506,1
+4159,Córdoba,9246,2
+4160,Mar del Plata,5185,1
+4161,Mar del Plata,3992,1
+4162,CABA,2592,1
+4163,CABA,9752,1
+4164,La Plata,4643,1
+4165,La Plata,1857,1
+4166,Córdoba,1653,2
+4167,La Plata,3199,1
+4168,La Plata,9979,1
+4169,Córdoba,9844,2
+4170,La Plata,8465,1
+4171,Mar del Plata,2320,1
+4172,La Plata,5447,1
+4173,Rafaela,9248,3
+4174,Villa Carlos Paz,8710,2
+4175,La Plata,2134,1
+4176,CABA,7814,1
+4177,Río Cuarto,6453,2
+4178,San Rafael,9453,4
+4179,La Plata,4971,1
+4180,Río Cuarto,6900,2
+4181,Villa Carlos Paz,2017,2
+4182,La Plata,6178,1
+4183,CABA,5907,1
+4184,CABA,2104,1
+4185,Mar del Plata,6769,1
+4186,CABA,4435,1
+4187,Villa Carlos Paz,9840,2
+4188,Godoy Cruz,6680,4
+4189,La Plata,6342,1
+4190,CABA,6547,1
+4191,CABA,8090,1
+4192,Godoy Cruz,3877,4
+4193,CABA,6379,1
+4194,CABA,2493,1
+4195,CABA,9568,1
+4196,Mendoza,3231,4
+4197,San Rafael,9670,4
+4198,Córdoba,8353,2
+4199,La Plata,7663,1
+4200,Córdoba,7033,2
