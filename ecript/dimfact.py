@@ -15,15 +15,8 @@ KIMBALL_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def read_table(name: str) -> pd.DataFrame:
-	# Try staging parquet/csv first, then raw csv
-	p_parquet = STAGING_DIR / f"{name}.parquet"
 	p_csv = STAGING_DIR / f"{name}.csv"
 	p_raw = RAW_DIR / f"{name}.csv"
-	if p_parquet.exists():
-		try:
-			return pd.read_parquet(p_parquet)
-		except Exception:
-			pass
 	if p_csv.exists():
 		try:
 			return pd.read_csv(p_csv)
@@ -40,13 +33,7 @@ def read_table(name: str) -> pd.DataFrame:
 def write_table(df: pd.DataFrame, name: str):
 	if df is None or df.empty:
 		return
-	p_parquet = KIMBALL_DIR / f"{name}.parquet"
 	p_csv = KIMBALL_DIR / f"{name}.csv"
-	# write parquet if possible
-	try:
-		df.to_parquet(p_parquet, index=False)
-	except Exception:
-		pass
 	df.to_csv(p_csv, index=False)
 
 
@@ -60,16 +47,35 @@ def build_dimensions(data: dict) -> dict:
 	else:
 		dims['dim_customer'] = pd.DataFrame()
 
-	# dim_product
+	# dim_product (normalize possible column names)
 	p = data.get('product', pd.DataFrame())
 	cat = data.get('product_category', pd.DataFrame())
 	if not p.empty:
-		cols = [x for x in ['product_id','product_name','product_category_id','price'] if x in p.columns]
-		prod = p.copy()
-		if not cat.empty and 'product_category_id' in prod.columns and 'product_category_id' in cat.columns:
-			prod = prod.merge(cat[['product_category_id','product_category_name']].drop_duplicates(), on='product_category_id', how='left')
-		keep = cols + [c for c in ['product_category_name'] if c in prod.columns]
-		dims['dim_product'] = prod[keep].drop_duplicates().reset_index(drop=True)
+		df = p.copy()
+		# detect id, name, category id, price columns
+		id_col = next((c for c in ['product_id','id','sku'] if c in df.columns), None)
+		name_col = next((c for c in ['product_name','name','title'] if c in df.columns), None)
+		cat_col = next((c for c in ['product_category_id','category_id','product_category'] if c in df.columns), None)
+		price_col = next((c for c in ['price','list_price','unit_price'] if c in df.columns), None)
+		prod = pd.DataFrame()
+		prod['product_id'] = df[id_col] if id_col else df.index.astype(str)
+		prod['product_name'] = df[name_col] if name_col else pd.NA
+		if cat_col:
+			prod['product_category_id'] = df[cat_col]
+		if price_col:
+			prod['price'] = pd.to_numeric(df[price_col], errors='coerce')
+		# enrich with category name if available (normalize cat columns)
+		if not cat.empty:
+			cat_df = cat.copy()
+			cat_id_col = next((c for c in ['product_category_id','category_id','id'] if c in cat_df.columns), None)
+			cat_name_col = next((c for c in ['product_category_name','name','category_name'] if c in cat_df.columns), None)
+			if cat_id_col and cat_name_col:
+				cat_df = cat_df[[cat_id_col, cat_name_col]].drop_duplicates()
+				cat_df.columns = ['product_category_id','product_category_name']
+				if 'product_category_id' in prod.columns:
+					prod = prod.merge(cat_df, on='product_category_id', how='left')
+		# final cleanup
+		dims['dim_product'] = prod.drop_duplicates().reset_index(drop=True)
 	else:
 		dims['dim_product'] = pd.DataFrame()
 
@@ -92,7 +98,7 @@ def build_dimensions(data: dict) -> dict:
 	# dim_province
 	prov = data.get('province', pd.DataFrame())
 	if not prov.empty:
-		cols = [x for x in ['province_id','province_name','country'] if x in prov.columns]
+		cols = [x for x in ['province_id','name','code'] if x in prov.columns]
 		dims['dim_province'] = prov[cols].drop_duplicates().reset_index(drop=True)
 	else:
 		dims['dim_province'] = pd.DataFrame()
@@ -100,8 +106,28 @@ def build_dimensions(data: dict) -> dict:
 	# dim_channel
 	ch = data.get('channel', pd.DataFrame())
 	if not ch.empty:
-		cols = [x for x in ['channel_id','channel_name','channel_type'] if x in ch.columns]
-		dims['dim_channel'] = ch[cols].drop_duplicates().reset_index(drop=True)
+		# Normalize possible column names: prefer channel_id, channel_name, channel_type
+		df = ch.copy()
+		# find id column
+		id_col = next((c for c in ['channel_id', 'id'] if c in df.columns), None)
+		name_col = next((c for c in ['channel_name', 'name', 'description', 'label'] if c in df.columns), None)
+		type_col = next((c for c in ['channel_type', 'code', 'type'] if c in df.columns), None)
+		# build normalized frame
+		norm = pd.DataFrame()
+		if id_col:
+			norm['channel_id'] = df[id_col]
+		else:
+			# if no id, try to create one from index
+			norm['channel_id'] = df.index.astype(str)
+		if name_col:
+			norm['channel_name'] = df[name_col]
+		else:
+			norm['channel_name'] = pd.NA
+		if type_col:
+			norm['channel_type'] = df[type_col]
+		else:
+			norm['channel_type'] = pd.NA
+		dims['dim_channel'] = norm.drop_duplicates().reset_index(drop=True)
 	else:
 		dims['dim_channel'] = pd.DataFrame()
 
@@ -126,9 +152,68 @@ def build_facts(data: dict) -> dict:
 			for c in ['total','grand_total','amount']:
 				if c in df.columns:
 					df[c] = pd.to_numeric(df[c], errors='coerce')
+			# derive province_id from store -> address -> customer (fallbacks)
+			# from store: try direct province_id, otherwise use store.address_id -> address.province_id
+			if 'store' in data and not data['store'].empty:
+				store_df = data['store'].copy()
+				# prefer existing province_id in store
+				if 'province_id' in store_df.columns:
+					store_map = store_df[['store_id','province_id']].drop_duplicates().rename(columns={'province_id':'store_province_id'})
+				else:
+					# try via address_id
+					if 'address' in data and not data['address'].empty and 'address_id' in store_df.columns:
+						addr_map = data['address'][['address_id','province_id']].drop_duplicates()
+						store_map = store_df[['store_id','address_id']].drop_duplicates().merge(
+							addr_map, left_on='address_id', right_on='address_id', how='left'
+						).rename(columns={'province_id':'store_province_id'})
+					else:
+						store_map = store_df[['store_id']].drop_duplicates()
+				# coerce id types to string to avoid float/int mismatch
+				if 'store_id' in store_map.columns:
+					store_map['store_id'] = store_map['store_id'].astype(str)
+				if 'store_id' in df.columns:
+					df['store_id'] = df['store_id'].astype(str)
+					df = df.merge(store_map, on='store_id', how='left')
+			# from shipping address
+			if 'address' in data and not data['address'].empty:
+				addr = data['address'][['address_id','province_id']].drop_duplicates()
+				# shipping
+				if 'shipping_address_id' in df.columns:
+					addr_ship = addr.rename(columns={'address_id':'shipping_address_id', 'province_id':'shipping_province_id'})
+					# coerce types
+					addr_ship['shipping_address_id'] = addr_ship['shipping_address_id'].astype(str)
+					df['shipping_address_id'] = df['shipping_address_id'].astype(str)
+					df = df.merge(addr_ship, on='shipping_address_id', how='left')
+				# billing
+				if 'billing_address_id' in df.columns:
+					addr_bill = addr.rename(columns={'address_id':'billing_address_id', 'province_id':'billing_province_id'})
+					# coerce types
+					addr_bill['billing_address_id'] = addr_bill['billing_address_id'].astype(str)
+					df['billing_address_id'] = df['billing_address_id'].astype(str)
+					df = df.merge(addr_bill, on='billing_address_id', how='left')
+			# from customer (only if customer has province info)
+			if 'customer' in data and not data['customer'].empty and 'customer_id' in data['customer'].columns and 'customer_id' in df.columns:
+				cust_df = data['customer']
+				if 'province_id' in cust_df.columns:
+					cust_map = cust_df[['customer_id','province_id']].drop_duplicates().rename(columns={'province_id':'customer_province_id'})
+					cust_map['customer_id'] = cust_map['customer_id'].astype(str)
+					df['customer_id'] = df['customer_id'].astype(str)
+					df = df.merge(cust_map, on='customer_id', how='left')
+				# else: no customer province info available
+			# choose province priority: store > shipping address > billing address > customer
+			priority_cols = ['store_province_id','shipping_province_id','billing_province_id','customer_province_id']
+			# create province_id column
+			df['province_id'] = pd.NA
+			for col in priority_cols:
+				if col in df.columns:
+					df['province_id'] = df['province_id'].fillna(df[col])
+			# drop helper cols if present
+			for col in priority_cols:
+				if col in df.columns:
+					df = df.drop(columns=[col])
 			facts['fact_sales_order'] = df.drop_duplicates(subset=['order_id']).reset_index(drop=True)
 		else:
-			facts['fact_sales_order'] = df
+			facts['fact_sales_order'] = so.copy()
 	else:
 		facts['fact_sales_order'] = pd.DataFrame()
 

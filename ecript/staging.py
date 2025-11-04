@@ -77,13 +77,7 @@ def build_staging_table(name: str):
 def write_staging(df: pd.DataFrame, name: str):
     if df is None or df.empty:
         return
-    p_parquet = STAGING_DIR / f"{name}.parquet"
     p_csv = STAGING_DIR / f"{name}.csv"
-    try:
-        df.to_parquet(p_parquet, index=False)
-    except Exception:
-        # if pyarrow not available, skip parquet write
-        pass
     df.to_csv(p_csv, index=False)
 
 
