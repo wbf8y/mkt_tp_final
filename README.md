@@ -417,7 +417,7 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 **Jerónimo Ballina**  
 📍 Rosario, Argentina  
 📧 jeronimoballina@gmail.com  
-💼 [GitHub](https://github.com/jeronimoballina)
+💼 [GitHub](https://github.com/wbf8y)
 
 ---
 
@@ -425,5 +425,5 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 
 ✅ Scripts ETL implementados  
 ✅ Tablas denormalizadas generadas  
-✅ Dashboard Looker Studio en desarrollo  
+✅ Dashboard Power BI en desarrollo  
 🔜 Ajuste final y entrega al profesor
