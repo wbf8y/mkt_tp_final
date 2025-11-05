@@ -34,7 +34,21 @@ def write_table(df: pd.DataFrame, name: str):
 	if df is None or df.empty:
 		return
 	p_csv = KIMBALL_DIR / f"{name}.csv"
-	df.to_csv(p_csv, index=False)
+	# prepare a copy for safe formatting
+	tmp = df.copy()
+	# format province_id to avoid trailing .0 in CSV
+	if 'province_id' in tmp.columns:
+		# coerce to numeric then to pandas nullable int, then to string (empty for NA)
+		tmp['province_id'] = pd.to_numeric(tmp['province_id'], errors='coerce')
+		try:
+			tmp['province_id'] = tmp['province_id'].astype('Int64')
+		except Exception:
+			# fallback: convert floats that are whole numbers to int where possible
+			tmp['province_id'] = tmp['province_id'].apply(lambda x: int(x) if pd.notna(x) and float(x).is_integer() else pd.NA)
+		# convert to string and replace <NA> with empty
+		tmp['province_id'] = tmp['province_id'].astype('string').fillna('')
+	# write CSV
+	tmp.to_csv(p_csv, index=False)
 
 
 def build_dimensions(data: dict) -> dict:
@@ -216,6 +230,28 @@ def build_facts(data: dict) -> dict:
 			facts['fact_sales_order'] = so.copy()
 	else:
 		facts['fact_sales_order'] = pd.DataFrame()
+
+	# Enrich fact_sales_order with province data if available
+	if 'fact_sales_order' in facts and not facts['fact_sales_order'].empty:
+		fso = facts['fact_sales_order']
+		if 'province' in data and not data['province'].empty and 'province_id' in fso.columns:
+			prov = data['province']
+			# normalize province id column name
+			prov_id_col = next((c for c in ['province_id','id'] if c in prov.columns), 'province_id')
+			prov_name_col = next((c for c in ['name','province_name'] if c in prov.columns), 'name')
+			prov_code_col = next((c for c in ['code','province_code'] if c in prov.columns), 'code')
+			prov_map = prov[[prov_id_col, prov_name_col, prov_code_col]].drop_duplicates()
+			prov_map.columns = ['province_id','province_name','province_code']
+			# coerce types
+			prov_map['province_id'] = prov_map['province_id'].astype(str)
+			fso['province_id'] = fso['province_id'].astype(str)
+			fso = fso.merge(prov_map, on='province_id', how='left')
+			# convert province_id to numeric and then to nullable integer to avoid .0 in CSV
+			if 'province_id' in fso.columns:
+				fso['province_id'] = pd.to_numeric(fso['province_id'], errors='coerce')
+				# use pandas nullable integer so missing values are preserved
+				fso['province_id'] = fso['province_id'].astype('Int64')
+			facts['fact_sales_order'] = fso
 
 	# fact_sales_item
 	if not soi.empty:

@@ -427,3 +427,9 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 ✅ Tablas denormalizadas generadas  
 ✅ Dashboard Power BI en desarrollo  
 🔜 Ajuste final y entrega al profesor
+
+
+## Link del trabajo Power BI 
+[POWER BI](https://app.powerbi.com/view?r=eyJrIjoiYTBkMzI2NmItNWNhYy00YmU1LWI4ZjgtYWQ4M2E1Y2U0ZTdjIiwidCI6IjNlMDUxM2Q2LTY4ZmEtNDE2ZS04ZGUxLTZjNWNkYzMxOWZmYSIsImMiOjR9)
+
+
