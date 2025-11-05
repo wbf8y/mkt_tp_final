@@ -343,7 +343,7 @@ Esto generará todas las **dimensiones y hechos** en la carpeta `denormalized/ki
 
 ---
 
-## 📊 Dashboard Comercial – *Looker Studio*
+## 📊 Dashboard Comercial – *Power BI*
 
 - **Herramienta:** [Power BI]
 - **Fuente:** Archivos CSV del DW (`denormalized/kimball`)
